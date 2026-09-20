@@ -8,7 +8,7 @@ import Calculator from '@/components/Calculator';
 export default function Home() {
     return (
         <div className="min-h-screen bg-zinc-50 px-6 py-16 dark:bg-black">
-            <main className="mx-auto flex max-w-2xl flex-col gap-6">
+            <main className="mx-auto flex max-w-5xl min-w-4xl flex-col gap-6">
                 <div>
                     <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
                         페르소나Q 합체 계산기

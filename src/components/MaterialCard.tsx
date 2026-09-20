@@ -145,7 +145,7 @@ export default function MaterialCard({
                             </span>
                         </div>
 
-                        <div className="grid grid-cols-2 gap-1.5">
+                        <div className="grid grid-cols-1 gap-1.5">
                             {slot.skills.map((skill, i) => (
                                 <div
                                     key={skillKey(skill)}
@@ -154,17 +154,19 @@ export default function MaterialCard({
                                     <span className="truncate text-zinc-800 dark:text-zinc-100">
                                         {skillDisplayName(skill)}
                                     </span>
-                                    <span className="shrink-0 text-zinc-400">
-                                        {skillLevelTag(skill)}
-                                    </span>
-                                    <button
-                                        type="button"
-                                        onClick={() => handleRemoveSkill(i)}
-                                        className="shrink-0 text-zinc-400 hover:text-red-500"
-                                        title="제거"
-                                    >
-                                        ×
-                                    </button>
+                                    <div className="flex justify-end gap-2">
+                                        <span className="shrink-0 text-zinc-400">
+                                            {skillLevelTag(skill)}
+                                        </span>
+                                        <button
+                                            type="button"
+                                            onClick={() => handleRemoveSkill(i)}
+                                            className="shrink-0 text-zinc-400 hover:text-red-500"
+                                            title="제거"
+                                        >
+                                            ×
+                                        </button>
+                                    </div>
                                 </div>
                             ))}
 
