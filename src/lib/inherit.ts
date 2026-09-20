@@ -108,3 +108,9 @@ export function computeInheritSlotCount(
     }
     return thresholds[thresholds.length - 1].slots;
 }
+
+export function getInitialSkills(persona: Persona): Skill[] {
+    return persona.skills.filter(
+        (skill) => !isPlaceholderSkill(skill) && skill.acquiredAt === 'initial',
+    );
+}
