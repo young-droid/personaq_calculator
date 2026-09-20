@@ -1,0 +1,170 @@
+[
+  {
+    "id": 0,
+    "name": {
+      "kr": "광대",
+      "en": "Fool",
+      "jp": "愚者"
+    }
+  },
+  {
+    "id": 1,
+    "name": {
+      "kr": "마법사",
+      "en": "Magician",
+      "jp": "魔術師"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "kr": "여법황",
+      "en": "Priestess",
+      "jp": "女教皇"
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "kr": "여황제",
+      "en": "Empress",
+      "jp": "女帝"
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "kr": "황제",
+      "en": "Emperor",
+      "jp": "皇帝"
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "kr": "법황",
+      "en": "Hierophant",
+      "jp": "法王"
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "kr": "연인",
+      "en": "Lovers",
+      "jp": "恋愛"
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "kr": "전차",
+      "en": "Chariot",
+      "jp": "戦車"
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "kr": "정의",
+      "en": "Justice",
+      "jp": "正義"
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "kr": "은둔자",
+      "en": "Hermit",
+      "jp": "隠者"
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "kr": "운명",
+      "en": "Fortune",
+      "jp": "運命"
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "kr": "힘",
+      "en": "Strength",
+      "jp": "剛毅"
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "kr": "사형수",
+      "en": "Hanged Man",
+      "jp": "刑死者"
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "kr": "사신",
+      "en": "Death",
+      "jp": "死神"
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "kr": "절제",
+      "en": "Temperance",
+      "jp": "節制"
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "kr": "악마",
+      "en": "Devil",
+      "jp": "悪魔"
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "kr": "탑",
+      "en": "Tower",
+      "jp": "塔"
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "kr": "별",
+      "en": "Star",
+      "jp": "星"
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "kr": "달",
+      "en": "Moon",
+      "jp": "月"
+    }
+  },
+  {
+    "id": 19,
+    "name": {
+      "kr": "태양",
+      "en": "Sun",
+      "jp": "太陽"
+    }
+  },
+  {
+    "id": 20,
+    "name": {
+      "kr": "심판",
+      "en": "Judgement",
+      "jp": "審判"
+    }
+  }
+]

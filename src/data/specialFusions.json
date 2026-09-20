@@ -1,0 +1,128 @@
+[
+  {
+    "result": {
+      "name": "사악 프로스트",
+      "arcana": "광대",
+      "level": 47
+    },
+    "materials": [
+      "잭 프로스트",
+      "잭 오 랜턴",
+      "킹 프로스트"
+    ],
+    "spreadType": "triangle"
+  },
+  {
+    "result": {
+      "name": "앨리스",
+      "arcana": "사신",
+      "level": 58
+    },
+    "materials": [
+      "베리얼",
+      "네비로스"
+    ],
+    "spreadType": "normal"
+  },
+  {
+    "result": {
+      "name": "페일라이더",
+      "arcana": "사신",
+      "level": 63
+    },
+    "materials": [
+      "화이트라이더",
+      "레드라이더",
+      "블랙라이더"
+    ],
+    "spreadType": "triangle"
+  },
+  {
+    "result": {
+      "name": "노룬",
+      "arcana": "운명",
+      "level": 66
+    },
+    "materials": [
+      "클로토",
+      "라케시스",
+      "아트로포스"
+    ],
+    "spreadType": "triangle"
+  },
+  {
+    "result": {
+      "name": "미카엘",
+      "arcana": "심판",
+      "level": 71
+    },
+    "materials": [
+      "우리엘",
+      "라파엘",
+      "가브리엘"
+    ],
+    "spreadType": "triangle"
+  },
+  {
+    "result": {
+      "name": "시바",
+      "arcana": "탑",
+      "level": 82
+    },
+    "materials": [
+      "란다",
+      "발롱"
+    ],
+    "spreadType": "normal"
+  },
+  {
+    "result": {
+      "name": "벨제부브",
+      "arcana": "악마",
+      "level": 84
+    },
+    "materials": [
+      "아스타로트",
+      "바알제블"
+    ],
+    "spreadType": "normal"
+  },
+  {
+    "result": {
+      "name": "알더",
+      "arcana": "심판",
+      "level": 89
+    },
+    "materials": [
+      "시바",
+      "파르바티"
+    ],
+    "spreadType": "normal"
+  },
+  {
+    "result": {
+      "name": "제우스",
+      "arcana": "심판",
+      "level": 91
+    },
+    "materials": [
+      "중장 제우스",
+      "세트"
+    ],
+    "spreadType": "normal"
+  },
+  {
+    "result": {
+      "name": "루시퍼",
+      "arcana": "심판",
+      "level": 93
+    },
+    "materials": [
+      "메타트론",
+      "알더",
+      "제우스 또는 중장 제우스"
+    ],
+    "spreadType": "triangle",
+    "note": "Silentsword 차트 원문 표기: '엄밀히는 특수합체가 아니고, 통합체표상 이 조합으로만 나오는 유일한 결과라 특수합체 취급'. 제우스/중장제우스 둘 중 하나만 있으면 됨(단, 제우스와 중장제우스를 같은 합체에 재료로 함께 쓰는 건 불가 — fusionFormulas.json의 zeusExclusivity 참고). 사용자가 준 일본어 특수합체 목록(게임 클리어 후 섹션)엔 이 레시피가 안 보였는데, 아마 그 목록이 거기서 잘려있어서(파일이 '게임 클리어 후'로 끝남) 그런 걸로 추정 — 확인 필요."
+  }
+]

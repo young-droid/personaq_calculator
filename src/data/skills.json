@@ -1,0 +1,5869 @@
+[
+  {
+    "id": "スラッシュ",
+    "name": {
+      "kr": "슬래시",
+      "en": null,
+      "jp": "スラッシュ"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の小ダメージ（近接攻撃）",
+    "cost": "HP：28",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ツインスラッシュ",
+    "name": {
+      "kr": "트윈 슬래시",
+      "en": null,
+      "jp": "ツインスラッシュ"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の小ダメージ×２回（近接攻撃）",
+    "cost": "HP：18",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "五月雨斬り",
+    "name": {
+      "kr": "장마 베어",
+      "en": null,
+      "jp": "五月雨斬り"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の小ダメージ×３回（近接攻撃）",
+    "cost": "HP：48",
+    "exampleExtractFrom": [
+      "【月】ヤマタノオロチ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "バインドカット",
+    "name": {
+      "kr": "바인딩 컷",
+      "en": null,
+      "jp": "バインドカット"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の小ダメージ ＋ 麻痺（中確率）（近接攻撃）",
+    "cost": "HP：10",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ポイズンカット",
+    "name": {
+      "kr": "포이즌 컷",
+      "en": null,
+      "jp": "ポイズンカット"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の小ダメージ ＋ 毒（中確率）（近接攻撃）",
+    "cost": "HP：10",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "残心剣",
+    "name": {
+      "kr": "残心剣",
+      "en": null,
+      "jp": "残心剣"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の中ダメージ（近接攻撃） 最後まで行動者がノーダメージなら再度攻撃する",
+    "cost": "HP：98",
+    "exampleExtractFrom": [
+      "【月】ギリメカラ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "デッドエンド",
+    "name": {
+      "kr": "막",
+      "en": null,
+      "jp": "デッドエンド"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の大ダメージ（近接攻撃） ※行動順：最遅",
+    "cost": "HP：76",
+    "exampleExtractFrom": [
+      "【審判】レッドライダー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ギロチンカット",
+    "name": {
+      "kr": "단두대 컷",
+      "en": null,
+      "jp": "ギロチンカット"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の大ダメージ（近接攻撃） 対象が状態異常の場合はダメージアップ",
+    "cost": "HP：87",
+    "exampleExtractFrom": [
+      "【死神】ホワイトライダー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "空間殺法",
+    "name": {
+      "kr": "공간 살법",
+      "en": null,
+      "jp": "空間殺法"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の大ダメージ（近接攻撃）",
+    "cost": "HP：94",
+    "exampleExtractFrom": [
+      "【恋愛】ラファエル"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "絶妙剣",
+    "name": {
+      "kr": "절묘한 검",
+      "en": null,
+      "jp": "絶妙剣"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬属性の大ダメージ（近接攻撃）",
+    "cost": "HP：134",
+    "exampleExtractFrom": [
+      "【死神】マハカーラ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "天軍の剣",
+    "name": {
+      "kr": "천군의 검",
+      "en": null,
+      "jp": "天軍の剣"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ミカエル、サンダルフォン、メタトロン専用スキル",
+    "effect": "敵１体に斬属性の特大ダメージ（遠隔攻撃）",
+    "cost": "HP：182",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "紅蓮刀",
+    "name": {
+      "kr": "홍련 칼",
+      "en": null,
+      "jp": "紅蓮刀"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋火炎属性の小ダメージ（近接攻撃）",
+    "cost": "HP：24",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "獄炎刀",
+    "name": {
+      "kr": "감옥 불꽃 칼",
+      "en": null,
+      "jp": "獄炎刀"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋火炎属性の中ダメージ（近接攻撃）",
+    "cost": "HP：92",
+    "exampleExtractFrom": [
+      "【法王】フラロウス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "緋炎刀",
+    "name": {
+      "kr": "주홍 불꽃 칼",
+      "en": null,
+      "jp": "緋炎刀"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋火炎属性の大ダメージ（近接攻撃）",
+    "cost": "HP：135",
+    "exampleExtractFrom": [
+      "【魔術師】スルト"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "霧氷刃",
+    "name": {
+      "kr": "무빙 날",
+      "en": null,
+      "jp": "霧氷刃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋氷結属性の小ダメージ（近接攻撃）",
+    "cost": "HP：12",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "氷殺刃",
+    "name": {
+      "kr": "氷殺 날",
+      "en": null,
+      "jp": "氷殺刃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋氷結属性の中ダメージ（近接攻撃）",
+    "cost": "HP：38",
+    "exampleExtractFrom": [
+      "【戦車】エリゴール"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "凍殺刃",
+    "name": {
+      "kr": "냉동 殺刃",
+      "en": null,
+      "jp": "凍殺刃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋氷結属性の大ダメージ（近接攻撃）",
+    "cost": "HP：135",
+    "exampleExtractFrom": [
+      "【節制】ビャッコ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "雷光斬",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "雷光斬"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋電撃属性の小ダメージ（近接攻撃）",
+    "cost": "HP：24",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "雷鳴斬",
+    "name": {
+      "kr": "천둥 참",
+      "en": null,
+      "jp": "雷鳴斬"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋電撃属性の中ダメージ（近接攻撃）",
+    "cost": "HP：92",
+    "exampleExtractFrom": [
+      "【剛毅】ハヌマーン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "雷神斬",
+    "name": {
+      "kr": "雷神斬",
+      "en": null,
+      "jp": "雷神斬"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋電撃属性の大ダメージ（近接攻撃）",
+    "cost": "HP：135",
+    "exampleExtractFrom": [
+      "【月】バアル・ゼブル"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "陣風撃",
+    "name": {
+      "kr": "陣風撃",
+      "en": null,
+      "jp": "陣風撃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋疾風属性の小ダメージ（近接攻撃）",
+    "cost": "HP：24",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "烈風撃",
+    "name": {
+      "kr": "烈風撃",
+      "en": null,
+      "jp": "烈風撃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋疾風属性の中ダメージ（近接攻撃）",
+    "cost": "HP：92",
+    "exampleExtractFrom": [
+      "【皇帝】オオクニヌシ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "神風撃",
+    "name": {
+      "kr": "神風撃",
+      "en": null,
+      "jp": "神風撃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "斬＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋疾風属性の大ダメージ（近接攻撃）",
+    "cost": "HP：135",
+    "exampleExtractFrom": [
+      "【恋愛】キュベレ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "連鎖の炎刃",
+    "name": {
+      "kr": "연쇄 화염 칼날",
+      "en": null,
+      "jp": "連鎖の炎刃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "追撃連鎖",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋火炎属性の小ダメージ（近接攻撃） 味方の追撃で連鎖ダメージが発生",
+    "cost": "HP：48",
+    "exampleExtractFrom": [
+      "【刑死者】ヤツフサ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "連鎖の氷刃",
+    "name": {
+      "kr": "연쇄 얼음 칼날",
+      "en": null,
+      "jp": "連鎖の氷刃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "追撃連鎖",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋氷結属性の小ダメージ（近接攻撃） 味方の追撃で連鎖ダメージが発生",
+    "cost": "HP：48",
+    "exampleExtractFrom": [
+      "【法王】ゴズキ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "連鎖の雷刃",
+    "name": {
+      "kr": "연쇄 번개 날",
+      "en": null,
+      "jp": "連鎖の雷刃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "追撃連鎖",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋電撃属性の小ダメージ（近接攻撃） 味方の追撃で連鎖ダメージが発生",
+    "cost": "HP：48",
+    "exampleExtractFrom": [
+      "【戦車】メズキ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "連鎖の風刃",
+    "name": {
+      "kr": "사슬 풍인",
+      "en": null,
+      "jp": "連鎖の風刃"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "追撃連鎖",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に斬＋疾風属性の小ダメージ（近接攻撃） 味方の追撃で連鎖ダメージが発生",
+    "cost": "HP：48",
+    "exampleExtractFrom": [
+      "【塔】クー・フーリン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "剛殺斬",
+    "name": {
+      "kr": "剛殺斬",
+      "en": null,
+      "jp": "剛殺斬"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "対象から左右に拡散する斬属性の小ダメージ（近接攻撃）",
+    "cost": "HP：56",
+    "exampleExtractFrom": [
+      "【刑死者】ヨモツイクサ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "利剣乱舞",
+    "name": {
+      "kr": "리켄 난무",
+      "en": null,
+      "jp": "利剣乱舞"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵一列に斬属性の大ダメージ（近接攻撃）",
+    "cost": "HP：126",
+    "exampleExtractFrom": [
+      "【太陽】タムリン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "デスバウンド",
+    "name": {
+      "kr": "데스 바운드",
+      "en": null,
+      "jp": "デスバウンド"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に斬属性の大ダメージ（遠隔攻撃）",
+    "cost": "HP：145",
+    "exampleExtractFrom": [
+      "【剛毅】カーリー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "黒の舞踏",
+    "name": {
+      "kr": "검은 무도",
+      "en": null,
+      "jp": "黒の舞踏"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "マハカーラ専用スキル",
+    "effect": "敵全体をランダムに斬属性の中ダメージ×５～７回（遠隔攻撃）",
+    "cost": "HP：176",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "八艘飛び",
+    "name": {
+      "kr": "여덟 척의 날아",
+      "en": null,
+      "jp": "八艘飛び"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ヨシツネ専用スキル",
+    "effect": "敵全体をランダムに斬属性の中ダメージ×８回（遠隔攻撃）",
+    "cost": "HP：164",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "災厄の種",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "災厄の種"
+    },
+    "topCategory": "斬攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "マガツイザナギ専用スキル",
+    "effect": "３ターンの間、敵全体に斬属性の大ダメージを複数回与える",
+    "cost": "不明",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ぶちかまし",
+    "name": {
+      "kr": "오릅니다",
+      "en": null,
+      "jp": "ぶちかまし"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の小ダメージ（近接攻撃）",
+    "cost": "HP：18",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ホーリータッチ",
+    "name": {
+      "kr": "홀리 터치",
+      "en": null,
+      "jp": "ホーリータッチ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の大ダメージ（遠隔攻撃）",
+    "cost": "HP：88",
+    "exampleExtractFrom": [
+      "【正義】ドミニオン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "我慢の鉄槌",
+    "name": {
+      "kr": "인내의 철퇴",
+      "en": null,
+      "jp": "我慢の鉄槌"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "１ターン後に敵１体に壊属性で攻撃（近接攻撃） 発動までの間に受けた攻撃回数が多いほど威力アップ",
+    "cost": "HP：100",
+    "exampleExtractFrom": [
+      "【審判】ブラックライダー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ゴッドハンド",
+    "name": {
+      "kr": "갓 핸드",
+      "en": null,
+      "jp": "ゴッドハンド"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ザオウゴンゲン専用スキル",
+    "effect": "敵１体に壊属性の特大ダメージ（近接攻撃）",
+    "cost": "HP：172",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "光明波",
+    "name": {
+      "kr": "광명 파",
+      "en": null,
+      "jp": "光明波"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "アスラおう専用スキル",
+    "effect": "敵１体に壊属性の特大ダメージ（遠隔攻撃）",
+    "cost": "HP：186",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "まどろみパンチ",
+    "name": {
+      "kr": "좀 펀치",
+      "en": null,
+      "jp": "まどろみパンチ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の小ダメージ（近接攻撃） 対象に中確率で睡眠を付着",
+    "cost": "HP：16",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ソニックパンチ",
+    "name": {
+      "kr": "소닉 펀치",
+      "en": null,
+      "jp": "ソニックパンチ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の中ダメージ（近接攻撃） 対象に中確率で睡眠を付着",
+    "cost": "HP：82",
+    "exampleExtractFrom": [
+      "【太陽】ナラシンハ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ブレインシェイク",
+    "name": {
+      "kr": "브레인 셰이크",
+      "en": null,
+      "jp": "ブレインシェイク"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の大ダメージ（近接攻撃） 対象に中確率で睡眠を付着",
+    "cost": "HP：112",
+    "exampleExtractFrom": [
+      "【剛毅】ジークフリード"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "脳天落とし",
+    "name": {
+      "kr": "정수리 떨어",
+      "en": null,
+      "jp": "脳天落とし"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の小ダメージ（近接攻撃） 対象に中確率で魔封じ",
+    "cost": "HP：42",
+    "exampleExtractFrom": [
+      "【戦車】ナタタイシ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ティアドロップ",
+    "name": {
+      "kr": "쿠로즈디",
+      "en": null,
+      "jp": "ティアドロップ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の小ダメージ（近接攻撃） 攻撃したターンに限り、対象の防御力ダウン",
+    "cost": "HP：10",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "バックドロップ",
+    "name": {
+      "kr": "백 드롭",
+      "en": null,
+      "jp": "バックドロップ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の中ダメージ（近接攻撃） 攻撃したターンに限り、対象の防御力ダウン",
+    "cost": "HP：92",
+    "exampleExtractFrom": [
+      "【太陽】ガネーシャ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "スタードロップ",
+    "name": {
+      "kr": "스타 드롭",
+      "en": null,
+      "jp": "スタードロップ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の大ダメージ（近接攻撃） 攻撃したターンに限り、対象の防御力ダウン",
+    "cost": "HP：124",
+    "exampleExtractFrom": [
+      "【法王】ミシャグジさま"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "牙砕き",
+    "name": {
+      "kr": "송곳니 부수",
+      "en": null,
+      "jp": "牙砕き"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の中ダメージ ３ターンの間、対象の物理攻撃力ダウン",
+    "cost": "HP：62",
+    "exampleExtractFrom": [
+      "【剛毅】オニ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "胆砕き",
+    "name": {
+      "kr": "담즙 부수",
+      "en": null,
+      "jp": "胆砕き"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "単体攻撃＋α",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊属性の中ダメージ ３ターンの間、対象の属性攻撃力ダウン",
+    "cost": "HP：62",
+    "exampleExtractFrom": [
+      "【節制】カイチ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "溶熱発破",
+    "name": {
+      "kr": "熔熱 폭발",
+      "en": null,
+      "jp": "溶熱発破"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "壊＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊＋火炎属性の小ダメージ（遠隔攻撃）",
+    "cost": "HP：12",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "灼熱発破",
+    "name": {
+      "kr": "작열 폭발",
+      "en": null,
+      "jp": "灼熱発破"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "壊＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊＋火炎属性の中ダメージ（遠隔攻撃）",
+    "cost": "HP：54",
+    "exampleExtractFrom": [
+      "【刑死者】オルトロス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "核熱発破",
+    "name": {
+      "kr": "핵 열 폭발",
+      "en": null,
+      "jp": "核熱発破"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "壊＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊＋火炎属性の大ダメージ（遠隔攻撃）",
+    "cost": "HP：102",
+    "exampleExtractFrom": [
+      "【節制】スザク"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "閃電砕",
+    "name": {
+      "kr": "閃電 쇄",
+      "en": null,
+      "jp": "閃電砕"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "壊＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊＋電撃属性の小ダメージ（遠隔攻撃）",
+    "cost": "HP：12",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "紫電砕",
+    "name": {
+      "kr": "자전 쇄",
+      "en": null,
+      "jp": "紫電砕"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "壊＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊＋電撃属性の中ダメージ（遠隔攻撃）",
+    "cost": "HP：102",
+    "exampleExtractFrom": [
+      "【戦車】オオミツヌ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "震電砕",
+    "name": {
+      "kr": "震電砕",
+      "en": null,
+      "jp": "震電砕"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "壊＋属性攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に壊＋電撃属性の大ダメージ（遠隔攻撃）",
+    "cost": "HP：158",
+    "exampleExtractFrom": [
+      "【戦車】トール"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ヒートウェイブ",
+    "name": {
+      "kr": "히트 웨이브",
+      "en": null,
+      "jp": "ヒートウェイブ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "対象から左右に拡散する壊属性の中ダメージ（近接攻撃）",
+    "cost": "HP：92",
+    "exampleExtractFrom": [
+      "【隠者】ヒトコトヌシ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ギガンフィスト",
+    "name": {
+      "kr": "의안 피스트",
+      "en": null,
+      "jp": "ギガンフィスト"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "対象から左右に拡散する壊属性の中ダメージ（近接攻撃）",
+    "cost": "HP：110",
+    "exampleExtractFrom": [
+      "【塔】アバドン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "天使のラッパ",
+    "name": {
+      "kr": "천사의 나팔",
+      "en": null,
+      "jp": "天使のラッパ"
+    },
+    "topCategory": "壊攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "トランペッター専用スキル",
+    "effect": "敵全体をランダムに壊属性の大ダメージ×３回（遠隔攻撃）",
+    "cost": "HP：160",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "シングルショット",
+    "name": {
+      "kr": "단발",
+      "en": null,
+      "jp": "シングルショット"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の小ダメージ【貫通】（遠隔攻撃）",
+    "cost": "HP：10",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "アサルトショット",
+    "name": {
+      "kr": "폭행 샷",
+      "en": null,
+      "jp": "アサルトショット"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の中ダメージ（遠隔攻撃） 後列の敵へ貫通する",
+    "cost": "HP：56",
+    "exampleExtractFrom": [
+      "【刑死者】ベリス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ヘビーショット",
+    "name": {
+      "kr": "헤비 샷",
+      "en": null,
+      "jp": "ヘビーショット"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の大ダメージ（遠隔攻撃） 後列の敵へ貫通する",
+    "cost": "HP：98",
+    "exampleExtractFrom": [
+      "【魔術師】ランダ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "カームバスター",
+    "name": {
+      "kr": "캄 버스터",
+      "en": null,
+      "jp": "カームバスター"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の大ダメージ（遠隔攻撃） 後列の敵へ貫通する",
+    "cost": "HP：164",
+    "exampleExtractFrom": [
+      "【塔】シヴァ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ダブルショット",
+    "name": {
+      "kr": "더블 샷",
+      "en": null,
+      "jp": "ダブルショット"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の小ダメージ×２回（遠隔攻撃）",
+    "cost": "HP：12",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "電光石火",
+    "name": {
+      "kr": "번개",
+      "en": null,
+      "jp": "電光石火"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の中ダメージ×３（遠隔攻撃） ※行動順：最速",
+    "cost": "HP：58",
+    "exampleExtractFrom": [
+      "【皇帝】セタンタ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "エンドショット",
+    "name": {
+      "kr": "최종 샷",
+      "en": null,
+      "jp": "エンドショット"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の大ダメージ（近接攻撃） ※行動順：最遅",
+    "cost": "HP：138",
+    "exampleExtractFrom": [
+      "【隠者】ニーズホッグ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "イノセントタック",
+    "name": {
+      "kr": "이노센탓쿠",
+      "en": null,
+      "jp": "イノセントタック"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に突属性の大ダメージ（近接攻撃） ※対象の耐性と強化を無視する",
+    "cost": "HP：178",
+    "exampleExtractFrom": [
+      "【月】サンダルフォン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "パニッシュメント",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "パニッシュメント"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "美鶴専用スキル",
+    "effect": "敵１体に突属性の大ダメージ（近接攻撃） 敵が封じ状態だとダメージがアップするが、敵の封じが解ける",
+    "cost": "HP：121",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "デスニードル",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "デスニードル"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "単体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "陽介専用スキル",
+    "effect": "敵１体に突属性の大ダメージ（近接攻撃） 対象に低確率で即死。対象が状態異常の時は即死成功率アップ",
+    "cost": "HP：121",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ホライズショット",
+    "name": {
+      "kr": "호 라이즈 샷",
+      "en": null,
+      "jp": "ホライズショット"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵一列に突属性の小ダメージ（近接攻撃）",
+    "cost": "HP：24",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "アローシャワー",
+    "name": {
+      "kr": "애로우 샤워",
+      "en": null,
+      "jp": "アローシャワー"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に突属性の小ダメージ（遠隔攻撃）",
+    "cost": "HP：64",
+    "exampleExtractFrom": [
+      "【剛毅】ツチグモ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ヘビーレイン",
+    "name": {
+      "kr": "헤비 레인",
+      "en": null,
+      "jp": "ヘビーレイン"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に突属性の中ダメージ（遠隔攻撃）",
+    "cost": "HP：84",
+    "exampleExtractFrom": [
+      "【悪魔】サキュバス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "アイオンの雨",
+    "name": {
+      "kr": "아이온의 비",
+      "en": null,
+      "jp": "アイオンの雨"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に突属性の中ダメージ（遠隔攻撃）",
+    "cost": "HP：134",
+    "exampleExtractFrom": [
+      "【戦車】トリグラフ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "刹那五月雨撃",
+    "name": {
+      "kr": "찰나 장마 격",
+      "en": null,
+      "jp": "刹那五月雨撃"
+    },
+    "topCategory": "突攻撃スキル",
+    "subCategory": "複数体攻撃",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体をランダムに突属性の小ダメージ×６～８回（遠隔攻撃）",
+    "cost": "HP：130",
+    "exampleExtractFrom": [
+      "【月】セト"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "真空波",
+    "name": {
+      "kr": "진공 파",
+      "en": null,
+      "jp": "真空波"
+    },
+    "topCategory": "万能属性攻撃スキル（物理ベース）",
+    "subCategory": "物理ベースの万能属性攻撃",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に万能属性の中ダメージ×２回（遠隔攻撃）",
+    "cost": "HP：82",
+    "exampleExtractFrom": [
+      "【死神】マタドール"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "烈星波",
+    "name": {
+      "kr": "烈星波",
+      "en": null,
+      "jp": "烈星波"
+    },
+    "topCategory": "万能属性攻撃スキル（物理ベース）",
+    "subCategory": "物理ベースの万能属性攻撃",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１～５体にランダムで万能属性の中ダメージ（遠隔攻撃）",
+    "cost": "HP：62",
+    "exampleExtractFrom": [
+      "【戦車】アレス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "フォトンエッジ",
+    "name": {
+      "kr": "포톤 에지",
+      "en": null,
+      "jp": "フォトンエッジ"
+    },
+    "topCategory": "万能属性攻撃スキル（物理ベース）",
+    "subCategory": "物理ベースの万能属性攻撃",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に万能属性の大ダメージ（近接攻撃）",
+    "cost": "HP：154",
+    "exampleExtractFrom": [
+      "【戦車】フツヌシ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "シャドウラン",
+    "name": {
+      "kr": "섀도우 런",
+      "en": null,
+      "jp": "シャドウラン"
+    },
+    "topCategory": "万能属性攻撃スキル（物理ベース）",
+    "subCategory": "物理ベースの万能属性攻撃",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に万能属性の大ダメージ（遠隔攻撃）",
+    "cost": "HP：147",
+    "exampleExtractFrom": [
+      "【星】スラオシャ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "プラーナ",
+    "name": {
+      "kr": "프라나",
+      "en": null,
+      "jp": "プラーナ"
+    },
+    "topCategory": "万能属性攻撃スキル（物理ベース）",
+    "subCategory": "物理ベースの万能属性攻撃",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "アルダー専用スキル",
+    "effect": "敵全体に万能属性の特大ダメージ（遠隔攻撃）",
+    "cost": "HP：188",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "終わる世界",
+    "name": {
+      "kr": "끝나는 세계",
+      "en": null,
+      "jp": "終わる世界"
+    },
+    "topCategory": "万能属性攻撃スキル（物理ベース）",
+    "subCategory": "物理ベースの万能属性攻撃",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ルシファー専用スキル",
+    "effect": "敵全体に万能属性の特大ダメージ（遠隔攻撃）",
+    "cost": "HP：188",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "プララヤ",
+    "name": {
+      "kr": "뿌라라야",
+      "en": null,
+      "jp": "プララヤ"
+    },
+    "topCategory": "万能属性攻撃スキル（物理ベース）",
+    "subCategory": "物理ベースの万能属性攻撃",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "シヴァ専用スキル",
+    "effect": "敵全体に万能属性の特大ダメージ（遠隔攻撃） 対象を中確率で即死させる",
+    "cost": "HP：198",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "デスカウンター",
+    "name": {
+      "kr": "데스 카운터",
+      "en": null,
+      "jp": "デスカウンター"
+    },
+    "topCategory": "その他の物理攻撃スキル",
+    "subCategory": "一覧",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、自身と同列の味方が攻撃される度に反撃する",
+    "cost": "HP：54",
+    "exampleExtractFrom": [
+      "【女帝】ヤクシニー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "デスチェイサー",
+    "name": {
+      "kr": "데스 체이서",
+      "en": null,
+      "jp": "デスチェイサー"
+    },
+    "topCategory": "その他の物理攻撃スキル",
+    "subCategory": "一覧",
+    "category": "물리",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、自身と同列の味方が攻撃する度に反撃する",
+    "cost": "HP：124",
+    "exampleExtractFrom": [
+      "【太陽】スパルナ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "アギ",
+    "name": {
+      "kr": "아기",
+      "en": null,
+      "jp": "アギ"
+    },
+    "topCategory": "火炎属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "화염",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に火炎属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "マハラギ",
+    "name": {
+      "kr": "마하라기",
+      "en": null,
+      "jp": "マハラギ"
+    },
+    "topCategory": "火炎属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "화염",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に火炎属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：14",
+    "exampleExtractFrom": [
+      "【魔術師】オロバス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "アギラオ",
+    "name": {
+      "kr": "아기라오",
+      "en": null,
+      "jp": "アギラオ"
+    },
+    "topCategory": "火炎属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "화염",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に火炎属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：28",
+    "exampleExtractFrom": [
+      "【太陽】ホウオウ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハラギオン",
+    "name": {
+      "kr": "마하라기온",
+      "en": null,
+      "jp": "マハラギオン"
+    },
+    "topCategory": "火炎属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "화염",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に火炎属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：36",
+    "exampleExtractFrom": [
+      "【魔術師】ジャックランタン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "アギダイン",
+    "name": {
+      "kr": "아기다인",
+      "en": null,
+      "jp": "アギダイン"
+    },
+    "topCategory": "火炎属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "화염",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に火炎属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：46",
+    "exampleExtractFrom": [
+      "【愚者】ジャアクフロスト"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハラギダイン",
+    "name": {
+      "kr": "마하라기다인",
+      "en": null,
+      "jp": "マハラギダイン"
+    },
+    "topCategory": "火炎属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "화염",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に火炎属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：64",
+    "exampleExtractFrom": [
+      "【正義】オファニム"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ラグナロク",
+    "name": {
+      "kr": "라그나로크",
+      "en": null,
+      "jp": "ラグナロク"
+    },
+    "topCategory": "火炎属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "화염",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "スルト専用スキル",
+    "effect": "敵１体に火炎属性の特大ダメージ（遠隔攻撃）",
+    "cost": "SP：84",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ブフ",
+    "name": {
+      "kr": "부프",
+      "en": null,
+      "jp": "ブフ"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に氷結属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "マハブフ",
+    "name": {
+      "kr": "마하부후",
+      "en": null,
+      "jp": "マハブフ"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に氷結属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：14",
+    "exampleExtractFrom": [
+      "【星】サラスヴァティ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ブフーラ",
+    "name": {
+      "kr": "부후라",
+      "en": null,
+      "jp": "ブフーラ"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に氷結属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：28",
+    "exampleExtractFrom": [
+      "【魔術師】ジャックフロスト"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハブフーラ",
+    "name": {
+      "kr": "마하부후라",
+      "en": null,
+      "jp": "マハブフーラ"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に氷結属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：36",
+    "exampleExtractFrom": [
+      "【節制】セイリュウ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ブフダイン",
+    "name": {
+      "kr": "부후다인",
+      "en": null,
+      "jp": "ブフダイン"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に氷結属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：46",
+    "exampleExtractFrom": [
+      "【女帝】スカディ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハブフダイン",
+    "name": {
+      "kr": "마하부후다인",
+      "en": null,
+      "jp": "マハブフダイン"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に氷結属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：64",
+    "exampleExtractFrom": [
+      "【愚者】シキオウジ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "極寒パラダイス",
+    "name": {
+      "kr": "극한 파라다이스",
+      "en": null,
+      "jp": "極寒パラダイス"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ジャアクフロスト専用",
+    "effect": "敵全体をランダムに氷結属性の中ダメージ×２～４回（遠隔攻撃）",
+    "cost": "SP：58",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ニブルヘイム",
+    "name": {
+      "kr": "니부루헤이무",
+      "en": null,
+      "jp": "ニブルヘイム"
+    },
+    "topCategory": "氷結属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빙결",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ロキ専用",
+    "effect": "敵１体に氷結属性の特大ダメージ（遠隔攻撃）",
+    "cost": "SP：84",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ジオ",
+    "name": {
+      "kr": "지오",
+      "en": null,
+      "jp": "ジオ"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に電撃属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "マハジオ",
+    "name": {
+      "kr": "마하지오",
+      "en": null,
+      "jp": "マハジオ"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に電撃属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：14",
+    "exampleExtractFrom": [
+      "【皇帝】オベロン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ジオンガ",
+    "name": {
+      "kr": "지온가",
+      "en": null,
+      "jp": "ジオンガ"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に電撃属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：28",
+    "exampleExtractFrom": [
+      "【塔】ライジュウ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハジオンガ",
+    "name": {
+      "kr": "마하지온가",
+      "en": null,
+      "jp": "マハジオンガ"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に電撃属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：36",
+    "exampleExtractFrom": [
+      "【皇帝】トート"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ジオダイン",
+    "name": {
+      "kr": "지오다인",
+      "en": null,
+      "jp": "ジオダイン"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に電撃属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：46",
+    "exampleExtractFrom": [
+      "【女帝】マザーハーロット"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハジオダイン",
+    "name": {
+      "kr": "마하지오다인",
+      "en": null,
+      "jp": "マハジオダイン"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に電撃属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：64",
+    "exampleExtractFrom": [
+      "【女教皇】ツィツィミトル"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "真理の雷",
+    "name": {
+      "kr": "진리의 번개",
+      "en": null,
+      "jp": "真理の雷"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "トール専用スキル",
+    "effect": "敵１体に電撃属性の特大ダメージ（遠隔攻撃）",
+    "cost": "SP：80",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ケラウノス",
+    "name": {
+      "kr": "케라우노스",
+      "en": null,
+      "jp": "ケラウノス"
+    },
+    "topCategory": "電撃属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "전격",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ゼウス専用スキル",
+    "effect": "敵全体をランダムに電撃属性の大ダメージ×６回（遠隔攻撃）",
+    "cost": "SP：96",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ガル",
+    "name": {
+      "kr": "가르",
+      "en": null,
+      "jp": "ガル"
+    },
+    "topCategory": "疾風属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "질풍",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に疾風属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "マハガル",
+    "name": {
+      "kr": "마하가루",
+      "en": null,
+      "jp": "マハガル"
+    },
+    "topCategory": "疾風属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "질풍",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に疾風属性の小ダメージ（遠隔攻撃）",
+    "cost": "SP：14",
+    "exampleExtractFrom": [
+      "【恋愛】アルプ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ガルーラ",
+    "name": {
+      "kr": "캥카",
+      "en": null,
+      "jp": "ガルーラ"
+    },
+    "topCategory": "疾風属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "질풍",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に疾風属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：28",
+    "exampleExtractFrom": [
+      "【女帝】ティターニア"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハガルーラ",
+    "name": {
+      "kr": "마하가루라",
+      "en": null,
+      "jp": "マハガルーラ"
+    },
+    "topCategory": "疾風属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "질풍",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に疾風属性の中ダメージ（遠隔攻撃）",
+    "cost": "SP：36",
+    "exampleExtractFrom": [
+      "【隠者】クラマテング"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ガルダイン",
+    "name": {
+      "kr": "가루다인",
+      "en": null,
+      "jp": "ガルダイン"
+    },
+    "topCategory": "疾風属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "질풍",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に疾風属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：46",
+    "exampleExtractFrom": [
+      "【星】ガルーダ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハガルダイン",
+    "name": {
+      "kr": "마하가루다인",
+      "en": null,
+      "jp": "マハガルダイン"
+    },
+    "topCategory": "疾風属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "질풍",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に疾風属性の大ダメージ（遠隔攻撃）",
+    "cost": "SP：64",
+    "exampleExtractFrom": [
+      "【太陽】ジュターユ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "万物流転",
+    "name": {
+      "kr": "만물 유전",
+      "en": null,
+      "jp": "万物流転"
+    },
+    "topCategory": "疾風属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "질풍",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "オーディン専用スキル",
+    "effect": "対象から左右に拡散する疾風属性の特大ダメージ（遠隔攻撃）",
+    "cost": "SP：88",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ハマ",
+    "name": {
+      "kr": "하마",
+      "en": null,
+      "jp": "ハマ"
+    },
+    "topCategory": "光属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빛",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に低確率で光属性の即死効果",
+    "cost": "SP：12",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "マハンマ",
+    "name": {
+      "kr": "마항마",
+      "en": null,
+      "jp": "マハンマ"
+    },
+    "topCategory": "光属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빛",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に低確率で光属性の即死効果",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【正義】パワー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ハマオン",
+    "name": {
+      "kr": "하마온",
+      "en": null,
+      "jp": "ハマオン"
+    },
+    "topCategory": "光属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빛",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で光属性の即死効果",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【正義】ヴァーチャー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハンマオン",
+    "name": {
+      "kr": "마항마온",
+      "en": null,
+      "jp": "マハンマオン"
+    },
+    "topCategory": "光属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빛",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に中確率で光属性の即死効果",
+    "cost": "SP：32",
+    "exampleExtractFrom": [
+      "【審判】トランペッター"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "回転説法",
+    "name": {
+      "kr": "회전 설법",
+      "en": null,
+      "jp": "回転説法"
+    },
+    "topCategory": "光属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "빛",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "だいそうじょう専用スキル",
+    "effect": "敵全体に高確率で光属性の即死効果",
+    "cost": "SP：85",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ムド",
+    "name": {
+      "kr": "무도",
+      "en": null,
+      "jp": "ムド"
+    },
+    "topCategory": "闇属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "어둠",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に低確率で闇属性の即死効果",
+    "cost": "SP：12",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "マハムド",
+    "name": {
+      "kr": "마하무도",
+      "en": null,
+      "jp": "マハムド"
+    },
+    "topCategory": "闇属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "어둠",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に低確率で闇属性の即死効果",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【女帝】ゴルゴン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ムドオン",
+    "name": {
+      "kr": "무도온",
+      "en": null,
+      "jp": "ムドオン"
+    },
+    "topCategory": "闇属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "어둠",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で闇属性の即死効果",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【悪魔】パズス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "マハムドオン",
+    "name": {
+      "kr": "마하무도온",
+      "en": null,
+      "jp": "マハムドオン"
+    },
+    "topCategory": "闇属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "어둠",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に中確率で闇属性の即死効果",
+    "cost": "SP：32",
+    "exampleExtractFrom": [
+      "【悪魔】アスタロト"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "死んでくれる？",
+    "name": {
+      "kr": "죽어 줄래?",
+      "en": null,
+      "jp": "死んでくれる？"
+    },
+    "topCategory": "闇属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "어둠",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "アリス専用スキル",
+    "effect": "敵全体に高確率で闇属性の即死効果",
+    "cost": "SP：74",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "メギド",
+    "name": {
+      "kr": "므깃도",
+      "en": null,
+      "jp": "メギド"
+    },
+    "topCategory": "万能属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に万能属性の中ダメージ（遠隔攻撃） 対象を中確率でダウンさせる",
+    "cost": "SP：54",
+    "exampleExtractFrom": [
+      "【節制】ミトラ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "メギドラ",
+    "name": {
+      "kr": "메기도라",
+      "en": null,
+      "jp": "メギドラ"
+    },
+    "topCategory": "万能属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に万能属性の大ダメージ（遠隔攻撃） 対象を中確率でダウンさせる",
+    "cost": "SP：68",
+    "exampleExtractFrom": [
+      "【愚者】デカラビア"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "メギドラオン",
+    "name": {
+      "kr": "메기도라온",
+      "en": null,
+      "jp": "メギドラオン"
+    },
+    "topCategory": "万能属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に万能属性の特大ダメージ（遠隔攻撃） 対象を中確率でダウンさせる",
+    "cost": "SP：82",
+    "exampleExtractFrom": [
+      "【節制】ヴィシュヌ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "漆黒の蛇",
+    "name": {
+      "kr": "칠흑의 뱀",
+      "en": null,
+      "jp": "漆黒の蛇"
+    },
+    "topCategory": "万能属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "サタン専用スキル",
+    "effect": "敵１体に万能属性の特大ダメージ（遠隔攻撃）",
+    "cost": "SP：99",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "明けの明星",
+    "name": {
+      "kr": "샛별",
+      "en": null,
+      "jp": "明けの明星"
+    },
+    "topCategory": "万能属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ルシフェル専用スキル",
+    "effect": "敵全体に万能属性の特大ダメージ（遠隔攻撃）",
+    "cost": "SP：99",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "冥府の扉",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "冥府の扉"
+    },
+    "topCategory": "万能属性攻撃スキル",
+    "subCategory": "一覧",
+    "category": "만능",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "タナトス専用スキル",
+    "effect": "３ターンの間、敵全体に万能性の大ダメージ＋高確率で即死 対象を高確率で即死させる",
+    "cost": "不明",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ポイズマ",
+    "name": {
+      "kr": "뽀이즈마",
+      "en": null,
+      "jp": "ポイズマ"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で毒を付着",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "ポイズンブレス",
+    "name": {
+      "kr": "포이즌 브레스",
+      "en": null,
+      "jp": "ポイズンブレス"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に中確率で毒を付着",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【隠者】モスマン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ドルミナー",
+    "name": {
+      "kr": "도루미나",
+      "en": null,
+      "jp": "ドルミナー"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で睡眠を付着",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "スリープソング",
+    "name": {
+      "kr": "슬립 송",
+      "en": null,
+      "jp": "スリープソング"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に中確率で睡眠を付着",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【悪魔】リリス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "プリンパ",
+    "name": {
+      "kr": "뿌린빠",
+      "en": null,
+      "jp": "プリンパ"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で混乱を付着",
+    "cost": "SP：6",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "テンタラフー",
+    "name": {
+      "kr": "텐타라후",
+      "en": null,
+      "jp": "テンタラフー"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に中確率で混乱を付着",
+    "cost": "SP：12",
+    "exampleExtractFrom": [
+      "【運命】エンプーサ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "デビルタッチ",
+    "name": {
+      "kr": "데빌 터치",
+      "en": null,
+      "jp": "デビルタッチ"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で呪いを付着",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "デビルスマイル",
+    "name": {
+      "kr": "데빌 스마일",
+      "en": null,
+      "jp": "デビルスマイル"
+    },
+    "topCategory": "状態異常スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に中確率で呪いを付着",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【愚者】レギオン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ナイアーム",
+    "name": {
+      "kr": "나이아무",
+      "en": null,
+      "jp": "ナイアーム"
+    },
+    "topCategory": "封じスキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で力封じ",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "マカジャマ",
+    "name": {
+      "kr": "마카쟈마",
+      "en": null,
+      "jp": "マカジャマ"
+    },
+    "topCategory": "封じスキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で魔封じ",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "スケアスロウ",
+    "name": {
+      "kr": "스케아스로우",
+      "en": null,
+      "jp": "スケアスロウ"
+    },
+    "topCategory": "封じスキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体に中確率で速封じ",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "サロメの口づけ",
+    "name": {
+      "kr": "살로메의 입맞춤",
+      "en": null,
+      "jp": "サロメの口づけ"
+    },
+    "topCategory": "封じスキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体にに高確率で力封じ＋魔封じ＋速封じ",
+    "cost": "SP：64",
+    "exampleExtractFrom": [],
+    "source": "skill1"
+  },
+  {
+    "id": "有毒の魔方陣",
+    "name": {
+      "kr": "독성의 마법진",
+      "en": null,
+      "jp": "有毒の魔方陣"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "状態異常",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体に中確率で毒を付着させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【悪魔】バジリスク"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "催眠の魔方陣",
+    "name": {
+      "kr": "최면의 마법진",
+      "en": null,
+      "jp": "催眠の魔方陣"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "状態異常",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体に中確率で睡眠を付着させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【月】アンドラス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "摩耗の魔方陣",
+    "name": {
+      "kr": "마모의 마법진",
+      "en": null,
+      "jp": "摩耗の魔方陣"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "状態異常",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体に中確率で麻痺を付着させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【法王】アンズー"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "混迷の魔方陣",
+    "name": {
+      "kr": "혼미의 마법진",
+      "en": null,
+      "jp": "混迷の魔方陣"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "状態異常",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体に中確率で混乱を付着させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【悪魔】ウコバク"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "無力の魔方陣",
+    "name": {
+      "kr": "무력의 마법진",
+      "en": null,
+      "jp": "無力の魔方陣"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "封じ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体に中確率で力封じ",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【隠者】イッポンダタラ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "沈黙の魔方陣",
+    "name": {
+      "kr": "침묵의 마법진",
+      "en": null,
+      "jp": "沈黙の魔方陣"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "封じ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体に中確率で魔封じ",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【死神】サマエル"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "鈍重の魔方陣",
+    "name": {
+      "kr": "둔중의 마법진",
+      "en": null,
+      "jp": "鈍重の魔方陣"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "封じ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体に中確率で速封じ",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【皇帝】パピルサグ"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "悪霊召喚",
+    "name": {
+      "kr": "악마 소환",
+      "en": null,
+      "jp": "悪霊召喚"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "魔法陣展開時専用スキル",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に万能属性の中ダメージ（遠隔攻撃） ※魔方陣展開中に限り使用可能",
+    "cost": "SP：58",
+    "exampleExtractFrom": [
+      "【星】キウン"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "悪魔召喚",
+    "name": {
+      "kr": "악마 소환",
+      "en": null,
+      "jp": "悪魔召喚"
+    },
+    "topCategory": "魔方陣スキル",
+    "subCategory": "魔法陣展開時専用スキル",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体に万能属性の大ダメージ（遠隔攻撃） ※魔方陣展開中に限り使用可能",
+    "cost": "SP：72",
+    "exampleExtractFrom": [
+      "【隠者】ネビロス"
+    ],
+    "source": "skill1"
+  },
+  {
+    "id": "ディア",
+    "name": {
+      "kr": "디아",
+      "en": null,
+      "jp": "ディア"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方１人のＨＰを小回復",
+    "cost": "SP：6",
+    "exampleExtractFrom": [
+      "【恋愛】ピクシー"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "メディア",
+    "name": {
+      "kr": "미디어",
+      "en": null,
+      "jp": "メディア"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体のＨＰを小回復",
+    "cost": "SP：12",
+    "exampleExtractFrom": [
+      "【女教皇】ハイピクシー"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ディアラマ",
+    "name": {
+      "kr": "디아라마",
+      "en": null,
+      "jp": "ディアラマ"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方１人のＨＰを中回復",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【法王】ユニコーン"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "メディラマ",
+    "name": {
+      "kr": "메디 라마",
+      "en": null,
+      "jp": "メディラマ"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体のＨＰを中回復",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【星】キクリヒメ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ディアラハン",
+    "name": {
+      "kr": "디아라항",
+      "en": null,
+      "jp": "ディアラハン"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方１人のＨＰを全回復",
+    "cost": "SP：36",
+    "exampleExtractFrom": [
+      "【運命】ノルン"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "メディアラハン",
+    "name": {
+      "kr": "미디어 라항",
+      "en": null,
+      "jp": "メディアラハン"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体のＨＰを全回復",
+    "cost": "SP：42",
+    "exampleExtractFrom": [
+      "【女帝】ラクシュミ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "アムリタ",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "アムリタ"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "クマ専用スキル",
+    "effect": "味方１体のＨＰを全回復し、状態異常と封じも治療する",
+    "cost": "SP：40",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "再生の竪琴",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "再生の竪琴"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "ＨＰ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "オルフェウス・改専用スキル",
+    "effect": "３ターンの間、毎ターン、味方全体のＨＰを回復し、状態異常と封じを治療する",
+    "cost": "SP：68",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "リカーム",
+    "name": {
+      "kr": "리카무",
+      "en": null,
+      "jp": "リカーム"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "蘇生",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘不能状態の味方１人を蘇生し、ＨＰを50％回復",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【魔術師】カハク"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "サマリカーム",
+    "name": {
+      "kr": "사마리카무",
+      "en": null,
+      "jp": "サマリカーム"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "蘇生",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘不能状態の味方１人を蘇生し、ＨＰを全回復",
+    "cost": "SP：34",
+    "exampleExtractFrom": [
+      "【恋愛】イシュタル"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "パトラ",
+    "name": {
+      "kr": "파트라",
+      "en": null,
+      "jp": "パトラ"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "状態異常回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方１人の状態異常を治療する",
+    "cost": "SP：6",
+    "exampleExtractFrom": [
+      "【節制】アプサラス"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "メパトラ",
+    "name": {
+      "kr": "메 파트라",
+      "en": null,
+      "jp": "メパトラ"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "状態異常回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体の状態異常を治療する",
+    "cost": "SP：12",
+    "exampleExtractFrom": [
+      "【恋愛】モー・ショボー"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "自浄メメント",
+    "name": {
+      "kr": "자정 기념물",
+      "en": null,
+      "jp": "自浄メメント"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "状態異常回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、自身と同列にいる味方の状態異常を治療する",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【運命】フォルトゥナ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "クロズディ",
+    "name": {
+      "kr": "쿠로즈디",
+      "en": null,
+      "jp": "クロズディ"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "封じ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方１人の封じを治療する",
+    "cost": "SP：8",
+    "exampleExtractFrom": [
+      "【正義】エンジェル"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "解放メメント",
+    "name": {
+      "kr": "해방 기념물",
+      "en": null,
+      "jp": "解放メメント"
+    },
+    "topCategory": "回復スキル",
+    "subCategory": "封じ回復",
+    "category": "회복",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、自身と同列にいる味方の封じを治療する",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【月】アルラウネ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "タルカジャ",
+    "name": {
+      "kr": "타루카쟈",
+      "en": null,
+      "jp": "タルカジャ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "攻撃力・防御力・命中率・回避率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方１人の攻撃力を上昇させる",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "マハタルカジャ",
+    "name": {
+      "kr": "마하타루카쟈",
+      "en": null,
+      "jp": "マハタルカジャ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "攻撃力・防御力・命中率・回避率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の攻撃力を上昇させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【運命】クロト"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ラクカジャ",
+    "name": {
+      "kr": "라쿠카쟈",
+      "en": null,
+      "jp": "ラクカジャ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "攻撃力・防御力・命中率・回避率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方１人の防御力を上昇させる",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "マハラクカジャ",
+    "name": {
+      "kr": "마하라쿠카쟈",
+      "en": null,
+      "jp": "マハラクカジャ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "攻撃力・防御力・命中率・回避率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の防御力を上昇させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【運命】ラケシス"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "スクカジャ",
+    "name": {
+      "kr": "스쿠카쟈",
+      "en": null,
+      "jp": "スクカジャ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "攻撃力・防御力・命中率・回避率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方１人の命中率と回避率を上昇させる",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "マハスクカジャ",
+    "name": {
+      "kr": "마하스쿠카쟈",
+      "en": null,
+      "jp": "マハスクカジャ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "攻撃力・防御力・命中率・回避率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の命中率と回避率を上昇させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【運命】アトロポス"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ヒートライザ",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "ヒートライザ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "攻撃力・防御力・命中率・回避率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": "Ｐ４主人公専用スキル",
+    "effect": "３ターンの間、味方１人の攻撃力、防御力、命中率、回避率を大きく上昇させる",
+    "cost": "SP：30",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "会心眼",
+    "name": {
+      "kr": "회심 눈",
+      "en": null,
+      "jp": "会心眼"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "クリティカル発生率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、自身のクリティカル率アップ",
+    "cost": "SP：28",
+    "exampleExtractFrom": [
+      "【愚者】オセ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "心眼覚醒",
+    "name": {
+      "kr": "심안 각성",
+      "en": null,
+      "jp": "心眼覚醒"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "クリティカル発生率強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体のクリティカル率アップ",
+    "cost": "SP：68",
+    "exampleExtractFrom": [
+      "【審判】ルシファー"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "チャージ",
+    "name": {
+      "kr": "충전",
+      "en": null,
+      "jp": "チャージ"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "自己強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、次に使用する物理攻撃のダメージを一度だけ３倍にする",
+    "cost": "SP：40",
+    "exampleExtractFrom": [
+      "【剛毅】オオヤマツミ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "コンセントレイト",
+    "name": {
+      "kr": "컨센트레이트",
+      "en": null,
+      "jp": "コンセントレイト"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "自己強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、次に使用する属性攻撃のダメージを一度だけ３倍にする",
+    "cost": "SP：40",
+    "exampleExtractFrom": [
+      "【死神】アリス"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "獣の咆哮",
+    "name": {
+      "kr": "짐승의 포효",
+      "en": null,
+      "jp": "獣の咆哮"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "自己強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、最速で行動する ３ターンの間、自身の物理攻撃力アップ",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【隠者】ヌエ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "龍の咆哮",
+    "name": {
+      "kr": "용의 포효",
+      "en": null,
+      "jp": "龍の咆哮"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "自己強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、最速で行動する ３ターンの間、自身の物理攻撃力が大きくアップ",
+    "cost": "SP：28",
+    "exampleExtractFrom": [
+      "【法王】コウリュウ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "修羅転生",
+    "name": {
+      "kr": "수라 환생",
+      "en": null,
+      "jp": "修羅転生"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "自己強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "自身の行動ターンにＨＰは大きく減少するが、与えられるダメージは飛躍的にアップする",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【剛毅】ラクシャーサ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "修羅場からの帰還",
+    "name": {
+      "kr": "아수라장의 귀환",
+      "en": null,
+      "jp": "修羅場からの帰還"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "自己強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "修羅転生を解除し、自身のＨＰを回復させる",
+    "cost": "SP：8",
+    "exampleExtractFrom": [
+      "【戦車】アタバク"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ヘイトイーター",
+    "name": {
+      "kr": "증오 이터",
+      "en": null,
+      "jp": "ヘイトイーター"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "挑発",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、自身の防御力をアップし、敵から狙われる確率を上げる",
+    "cost": "SP：6",
+    "exampleExtractFrom": [
+      "【死神】モコイ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "聖なる加護",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "聖なる加護"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "防御スキル",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体に状態異常と封じを一度だけ防ぐを付与",
+    "cost": "SP：28",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "月の加護",
+    "name": {
+      "kr": "달의 가호",
+      "en": null,
+      "jp": "月の加護"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "防御スキル",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": "カグヤ専用",
+    "effect": "３ターンの間、１ターンに一度だけ攻撃を防ぐ効果を付与",
+    "cost": "SP：87",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "火の壁",
+    "name": {
+      "kr": "불의 벽",
+      "en": null,
+      "jp": "火の壁"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "属性耐性強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の火炎耐性を上昇させる",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【魔術師】マダ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "氷の壁",
+    "name": {
+      "kr": "얼음 벽",
+      "en": null,
+      "jp": "氷の壁"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "属性耐性強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の氷結耐性を上昇させる",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【皇帝】キングフロスト"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "雷の壁",
+    "name": {
+      "kr": "천둥의 벽",
+      "en": null,
+      "jp": "雷の壁"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "属性耐性強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の電撃耐性を上昇させる",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【法王】ハチマン"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "風の壁",
+    "name": {
+      "kr": "바람의 벽",
+      "en": null,
+      "jp": "風の壁"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "属性耐性強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の疾風耐性を上昇させる",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【魔術師】ジン"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "光の壁",
+    "name": {
+      "kr": "빛의 벽",
+      "en": null,
+      "jp": "光の壁"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "属性耐性強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の光耐性を上昇させる",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【星】ルシフェル"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "闇の壁",
+    "name": {
+      "kr": "어둠의 벽",
+      "en": null,
+      "jp": "闇の壁"
+    },
+    "topCategory": "強化スキル",
+    "subCategory": "属性耐性強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の闇耐性を上昇させる",
+    "cost": "SP：16",
+    "exampleExtractFrom": [
+      "【死神】モト"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "タルンダ",
+    "name": {
+      "kr": "타룬다",
+      "en": null,
+      "jp": "タルンダ"
+    },
+    "topCategory": "弱体化スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵１体の攻撃力を低下させる",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "マハタルンダ",
+    "name": {
+      "kr": "마하타룬다",
+      "en": null,
+      "jp": "マハタルンダ"
+    },
+    "topCategory": "弱体化スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体の攻撃力を低下させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【刑死者】ヘルズエンジェル"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ラクンダ",
+    "name": {
+      "kr": "라쿤다",
+      "en": null,
+      "jp": "ラクンダ"
+    },
+    "topCategory": "弱体化スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵１体の防御力を低下させる",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "マハラクンダ",
+    "name": {
+      "kr": "마하라쿤다",
+      "en": null,
+      "jp": "マハラクンダ"
+    },
+    "topCategory": "弱体化スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体の防御力を低下させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【女教皇】ハリティー"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "スクンダ",
+    "name": {
+      "kr": "스쿤다",
+      "en": null,
+      "jp": "スクンダ"
+    },
+    "topCategory": "弱体化スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵１体の命中率と回避率を低下させる",
+    "cost": "SP：8",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "マハスクンダ",
+    "name": {
+      "kr": "마하스쿤다",
+      "en": null,
+      "jp": "マハスクンダ"
+    },
+    "topCategory": "弱体化スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、敵全体の命中率と回避率を低下させる",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【恋愛】クイーンメイプ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ランダマイザ",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "ランダマイザ"
+    },
+    "topCategory": "弱体化スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": "Ｐ３主人公専用スキル",
+    "effect": "３ターンの間、敵１体の攻撃力、防御力、命中率、回避率を大きく低下させる",
+    "cost": "SP：30",
+    "exampleExtractFrom": [],
+    "source": "skill2"
+  },
+  {
+    "id": "ボディーガード",
+    "name": {
+      "kr": "보디 가드",
+      "en": null,
+      "jp": "ボディーガード"
+    },
+    "topCategory": "ガード系スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方１体のダメージを肩代わりし、ダメージを軽減する。",
+    "cost": "SP：12",
+    "exampleExtractFrom": [
+      "【剛毅】ヴァルキリー"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ボディーシールド",
+    "name": {
+      "kr": "바디 쉴드",
+      "en": null,
+      "jp": "ボディーシールド"
+    },
+    "topCategory": "ガード系スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方一列のダメージを肩代わりし、ダメージを軽減する。",
+    "cost": "SP：18",
+    "exampleExtractFrom": [
+      "【運命】アナンタ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "ボディーバリアー",
+    "name": {
+      "kr": "보디 배리어",
+      "en": null,
+      "jp": "ボディーバリアー"
+    },
+    "topCategory": "ガード系スキル",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体のダメージを肩代わりし、ダメージを軽減する。",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【隠者】アラハバキ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "デクンダ",
+    "name": {
+      "kr": "데쿤다",
+      "en": null,
+      "jp": "デクンダ"
+    },
+    "topCategory": "その他",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体にかかっているステータス低下効果を打ち消す",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【皇帝】キングー"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "デカジャ",
+    "name": {
+      "kr": "데카쟈",
+      "en": null,
+      "jp": "デカジャ"
+    },
+    "topCategory": "その他",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体にかかっているステータス上昇効果を打ち消す",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【刑死者】ヴァスキ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "淀んだ空気",
+    "name": {
+      "kr": "고인 공기",
+      "en": null,
+      "jp": "淀んだ空気"
+    },
+    "topCategory": "その他",
+    "subCategory": "一覧",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "敵全体にかかっている状態異常・封じがより持続する。重ねがけによる延長はできない",
+    "cost": "SP：24",
+    "exampleExtractFrom": [
+      "【塔】マーラ"
+    ],
+    "source": "skill2"
+  },
+  {
+    "id": "火炎耐性",
+    "name": {
+      "kr": "화염 내성",
+      "en": null,
+      "jp": "火炎耐性"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "火炎属性ダメージを半減する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "火炎吸収",
+    "name": {
+      "kr": "화염 흡수",
+      "en": null,
+      "jp": "火炎吸収"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "火炎属性ダメージを吸収する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "氷結耐性",
+    "name": {
+      "kr": "결빙 내성",
+      "en": null,
+      "jp": "氷結耐性"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "氷結属性ダメージを半減する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "氷結吸収",
+    "name": {
+      "kr": "빙결 흡수",
+      "en": null,
+      "jp": "氷結吸収"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "氷結属性ダメージを吸収する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "電撃耐性",
+    "name": {
+      "kr": "전기 내성",
+      "en": null,
+      "jp": "電撃耐性"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "電撃属性ダメージを半減する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "電撃吸収",
+    "name": {
+      "kr": "전격 흡수",
+      "en": null,
+      "jp": "電撃吸収"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "電撃属性ダメージを吸収する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "疾風耐性",
+    "name": {
+      "kr": "질풍 내성",
+      "en": null,
+      "jp": "疾風耐性"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "疾風属性ダメージを半減する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "疾風吸収",
+    "name": {
+      "kr": "질풍 흡수",
+      "en": null,
+      "jp": "疾風吸収"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "疾風属性ダメージを吸収する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "光耐性",
+    "name": {
+      "kr": "빛 내성",
+      "en": null,
+      "jp": "光耐性"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "光属性による戦闘不能効果が付きにくくなる",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "闇耐性",
+    "name": {
+      "kr": "어둠 내성",
+      "en": null,
+      "jp": "闇耐性"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "属性耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "闇属性による戦闘不能効果が付きにくくなる",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "毒無効",
+    "name": {
+      "kr": "독 해제",
+      "en": null,
+      "jp": "毒無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "状態異常耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "毒を無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "睡眠無効",
+    "name": {
+      "kr": "수면 해제",
+      "en": null,
+      "jp": "睡眠無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "状態異常耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "睡眠を無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "麻痺無効",
+    "name": {
+      "kr": "마비 무효",
+      "en": null,
+      "jp": "麻痺無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "状態異常耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "麻痺を無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "混乱無効",
+    "name": {
+      "kr": "혼란 해제",
+      "en": null,
+      "jp": "混乱無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "状態異常耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "混乱を無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "呪い無効",
+    "name": {
+      "kr": "저주 해제",
+      "en": null,
+      "jp": "呪い無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "状態異常耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "呪いを無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "石化無効",
+    "name": {
+      "kr": "석화 해제",
+      "en": null,
+      "jp": "石化無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "状態異常耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "石化を無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "力封じ無効",
+    "name": {
+      "kr": "힘 봉인 해제",
+      "en": null,
+      "jp": "力封じ無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "封じ耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "力封じを無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "魔封じ無効",
+    "name": {
+      "kr": "마비 무효",
+      "en": null,
+      "jp": "魔封じ無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "封じ耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "魔封じを無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "速封じ無効",
+    "name": {
+      "kr": "속도 봉쇄 해제",
+      "en": null,
+      "jp": "速封じ無効"
+    },
+    "topCategory": "耐性強化",
+    "subCategory": "封じ耐性強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "速封じを無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "斬撃の鬼",
+    "name": {
+      "kr": "참격 악마",
+      "en": null,
+      "jp": "斬撃の鬼"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "物理ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "斬属性の攻撃で与えるダメージが少し上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "斬撃の神",
+    "name": {
+      "kr": "참격 신",
+      "en": null,
+      "jp": "斬撃の神"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "物理ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "斬属性の攻撃で与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "壊撃の鬼",
+    "name": {
+      "kr": "壊撃 악마",
+      "en": null,
+      "jp": "壊撃の鬼"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "物理ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "壊属性の攻撃で与えるダメージが少し上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "壊撃の神",
+    "name": {
+      "kr": "壊撃의 신",
+      "en": null,
+      "jp": "壊撃の神"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "物理ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "壊属性の攻撃で与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "突撃の鬼",
+    "name": {
+      "kr": "돌격 악마",
+      "en": null,
+      "jp": "突撃の鬼"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "物理ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "突属性の攻撃で与えるダメージが少し上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "突撃の神",
+    "name": {
+      "kr": "돌격의 신",
+      "en": null,
+      "jp": "突撃の神"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "物理ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "突属性の攻撃で与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "火炎ブースタ",
+    "name": {
+      "kr": "화염 부스터",
+      "en": null,
+      "jp": "火炎ブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "火炎属性攻撃で与えるダメージが少し上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "火炎ハイブースタ",
+    "name": {
+      "kr": "화염 하이 부스터",
+      "en": null,
+      "jp": "火炎ハイブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "火炎属性攻撃で与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "火炎ヘルブースタ",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "火炎ヘルブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "雪子専用スキル",
+    "effect": "火炎属性攻撃で与えるダメージが大幅に上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "氷結ブースタ",
+    "name": {
+      "kr": "빙결 부스터",
+      "en": null,
+      "jp": "氷結ブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "氷結属性攻撃で与えるダメージが少し上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "氷結ハイブースタ",
+    "name": {
+      "kr": "빙결 하이 부스터",
+      "en": null,
+      "jp": "氷結ハイブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "氷結属性攻撃で与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "電撃ブースタ",
+    "name": {
+      "kr": "전격 부스터",
+      "en": null,
+      "jp": "電撃ブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "電撃属性攻撃で与えるダメージが少し上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "電撃ハイブースタ",
+    "name": {
+      "kr": "전격 하이 부스터",
+      "en": null,
+      "jp": "電撃ハイブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "電撃属性攻撃で与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "疾風ブースタ",
+    "name": {
+      "kr": "질풍 부스터",
+      "en": null,
+      "jp": "疾風ブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "疾風属性攻撃で与えるダメージが少し上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "疾風ハイブースタ",
+    "name": {
+      "kr": "질풍 하이 부스터",
+      "en": null,
+      "jp": "疾風ハイブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "疾風属性攻撃で与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "疾風ヘルブースタ",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "疾風ヘルブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "属性ダメージアップ",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "ゆかり専用スキル",
+    "effect": "疾風属性攻撃で与えるダメージが大幅に上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "救いの手",
+    "name": {
+      "kr": "도움의 손길",
+      "en": null,
+      "jp": "救いの手"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "回復力増加",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "回復スキルによるＨＰの回復量が高くなる",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【女帝】ガブリエル"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "二連の鎖",
+    "name": {
+      "kr": "이연 사슬",
+      "en": null,
+      "jp": "二連の鎖"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "最初の一撃で与えるダメージが上昇し、連鎖ダメージが最大で２回発生する ※連鎖の○刃系スキル専用",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【死神】トゥルダク"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "三連の鎖",
+    "name": {
+      "kr": "세중의 사슬",
+      "en": null,
+      "jp": "三連の鎖"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "最初の一撃で与えるダメージが上昇し、連鎖ダメージが最大で３回発生する ※連鎖の○刃系スキル専用",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】ペイルライダー"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "四連の鎖",
+    "name": {
+      "kr": "네 연속 체인",
+      "en": null,
+      "jp": "四連の鎖"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "最初の一撃で与えるダメージが上昇し、連鎖ダメージが最大で４回発生する ※連鎖の○刃系スキル専用",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【隠者】オンギョウキ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "無限の鎖",
+    "name": {
+      "kr": "끝없는 사슬",
+      "en": null,
+      "jp": "無限の鎖"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "最初の一撃で与えるダメージが上昇。連鎖ダメージの発生回数が増える ※連鎖の○刃系スキル専用",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【塔】シュウ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "黄金連鎖",
+    "name": {
+      "kr": "황금 사슬",
+      "en": null,
+      "jp": "黄金連鎖"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "連鎖回数に応じて連鎖ダメージが上昇する ※○連の鎖と組み合わせないと無意味",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】アルダー"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "一番星",
+    "name": {
+      "kr": "가장 별",
+      "en": null,
+      "jp": "一番星"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "全ての敵よりも先に攻撃する時、与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【星】ネコショウグン"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "鮮血の先導者",
+    "name": {
+      "kr": "선혈의 선도자",
+      "en": null,
+      "jp": "鮮血の先導者"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "同ターン内に限り、自身が攻撃した敵に味方が追撃した時のダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【星】カルティケーヤ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "地獄の先導者",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "地獄の先導者"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "連鎖強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "コロマル専用",
+    "effect": "同ターン内に限り、自身が攻撃した敵に味方が追撃した時のダメージが大きく上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "パニッシャー",
+    "name": {
+      "kr": "처벌",
+      "en": null,
+      "jp": "パニッシャー"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "クリティカル強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "封じ状態の敵に対してクリティカル率が上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】ミカエル"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "猛者の称号",
+    "name": {
+      "kr": "맹자의 칭호",
+      "en": null,
+      "jp": "猛者の称号"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "クリティカル強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "自身のクリティカル率が上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【正義】メルキセデク"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "覇者の称号",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "覇者の称号"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "クリティカル強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "真田専用スキル",
+    "effect": "自身のクリティカル率が大きく上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "憤怒の拳",
+    "name": {
+      "kr": "분노의 주먹",
+      "en": null,
+      "jp": "憤怒の拳"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "クリティカル強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "クリティカルで与えるダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】ゼウス"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "怒りの鉄拳",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "怒りの鉄拳"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "クリティカル強化",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "千枝専用スキル",
+    "effect": "クリティカルで与えるダメージが大きく上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "デスサイズ",
+    "name": {
+      "kr": "데스 사이즈",
+      "en": null,
+      "jp": "デスサイズ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "特定条件下でのダメージ増加",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "状態異常の敵に攻撃する時、ダメージが大幅に上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【月】チェルノボグ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "反骨心",
+    "name": {
+      "kr": "반골 정신",
+      "en": null,
+      "jp": "反骨心"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "特定条件下でのダメージ増加",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "ＨＰが大幅に高い相手に対して攻撃力がやや上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【塔】マサカド"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "下克上",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "下克上"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "特定条件下でのダメージ増加",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "完二専用スキル",
+    "effect": "ＨＰが大幅に高い相手に対して攻撃力が上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "ウィークブースタ",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "ウィークブースタ"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "特定条件下でのダメージ増加",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "天田専用スキル",
+    "effect": "弱点をついた時のダメージが上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "不浄の手",
+    "name": {
+      "kr": "부정한 손",
+      "en": null,
+      "jp": "不浄の手"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "状態異常等の付着率上昇",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "状態異常の付着率が上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【悪魔】インキュバス"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "束縛の手",
+    "name": {
+      "kr": "속박의 손",
+      "en": null,
+      "jp": "束縛の手"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "状態異常等の付着率上昇",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "封じの成功率が上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【悪魔】ベルフェゴール"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "ダウンメイカー",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "ダウンメイカー"
+    },
+    "topCategory": "ダメージ増幅",
+    "subCategory": "状態異常等の付着率上昇",
+    "category": "상시",
+    "alwaysInheritable": false,
+    "everInheritable": false,
+    "inheritRestrictionNote": "直斗専用スキル",
+    "effect": "敵をダウンさせる確率が上昇する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "巨腕スイング",
+    "name": {
+      "kr": "巨腕 스윙",
+      "en": null,
+      "jp": "巨腕スイング"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "攻撃拡散",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "敵１体を対象にした攻撃スキルが低確率で左右の敵に拡散する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】重装ゼウス"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "巨腕トルネード",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "巨腕トルネード"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "攻撃拡散",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": "荒垣専用スキル",
+    "effect": "敵１体を対象にした攻撃スキルが中確率で左右の敵に拡散する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "二又の矛",
+    "name": {
+      "kr": "후타 마타의 억",
+      "en": null,
+      "jp": "二又の矛"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "攻撃回数アップ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "通常攻撃時に中確率で再攻撃を行う",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【塔】セイテンタイセイ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "裁きの剣",
+    "name": {
+      "kr": "심판의 검",
+      "en": null,
+      "jp": "裁きの剣"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "攻撃回数アップ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "敵が封じ状態になった時、その敵に通常攻撃を行う",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】メタトロン"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "豪傑の双腕",
+    "name": {
+      "kr": "호걸의 쌍 팔",
+      "en": null,
+      "jp": "豪傑の双腕"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "攻撃回数アップ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "敵を対象とした攻撃スキルが低確率で２回発動する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【塔】ヨシツネ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "黄金の双翼",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "黄金の双翼"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "攻撃回数アップ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": "順平専用スキル",
+    "effect": "敵を対象とした攻撃スキルが中確率で２回発動する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "食いしばり",
+    "name": {
+      "kr": "움켜 쥐고",
+      "en": null,
+      "jp": "食いしばり"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "食いしばり",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘中に一度だけ、ＨＰが０になるダメージを受けてもＨＰ１で耐える",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】サタン"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "トリックステップ",
+    "name": {
+      "kr": "트릭 단계",
+      "en": null,
+      "jp": "トリックステップ"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "回避率アップ",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "あらゆる攻撃に対して回避率が高くなる",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【愚者】ロキ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "ソードブレイカー",
+    "name": {
+      "kr": "소드 브레이커",
+      "en": null,
+      "jp": "ソードブレイカー"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "ダメージ軽減、無効化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "自身と同列の味方に対する物理ダメージを中確率で半減させる",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【女教皇】スカアハ"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "相殺ボディ",
+    "name": {
+      "kr": "상쇄 바디",
+      "en": null,
+      "jp": "相殺ボディ"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "ダメージ軽減、無効化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "自身に対する物理ダメージを高確率で無効化する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【女帝】アリラト"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "ルーンの盾",
+    "name": {
+      "kr": "룬의 방패",
+      "en": null,
+      "jp": "ルーンの盾"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "ダメージ軽減、無効化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "自身と同列の味方に対する火炎・氷結・疾風・電撃属性の攻撃を中確率で無効化する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【皇帝】オーディーン"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "イージスの盾",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "イージスの盾"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "ダメージ軽減、無効化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": "アイギス専用スキル",
+    "effect": "自身と同列の味方に対する火炎・氷結・疾風・電撃属性の攻撃を高確率で無効化する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "再生能力",
+    "name": {
+      "kr": "재생 능력",
+      "en": null,
+      "jp": "再生能力"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "回復",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "自身に付着した状態異常や封じの自然回復力が大幅に上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【愚者】スライム"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "黄泉路からの生還",
+    "name": {
+      "kr": "黄泉路에서 생환",
+      "en": null,
+      "jp": "黄泉路からの生還"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "回復",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "自身のＨＰが30%以下になった際に中確率で回復する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【皇帝】バロン"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "修羅の本能",
+    "name": {
+      "kr": "수라의 본능",
+      "en": null,
+      "jp": "修羅の本能"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "戦闘時スキル自動発動",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘開始時に高確率で「修羅転生」が発動する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【太陽】アスラおう"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "ヘイトサーチャー",
+    "name": {
+      "kr": "증오 서처",
+      "en": null,
+      "jp": "ヘイトサーチャー"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "戦闘時スキル自動発動",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘開始時に高確率で「ヘイトイーター」が発動する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "skill3"
+  },
+  {
+    "id": "レメゲトン",
+    "name": {
+      "kr": "레메게톤",
+      "en": null,
+      "jp": "レメゲトン"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "魔法陣強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "魔法陣を使った召喚の威力が上昇する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【悪魔】ベリアル"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "魔法円",
+    "name": {
+      "kr": "마법 원",
+      "en": null,
+      "jp": "魔法円"
+    },
+    "topCategory": "その他戦闘補助",
+    "subCategory": "魔法陣強化",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "魔方陣を展開している間、毎ターン、味方のHPが小回復する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【審判】アヌビス"
+    ],
+    "source": "skill3"
+  },
+  {
+    "id": "戦闘支援スキルは、戦闘担当のナビゲーターにセットしないと効果を発揮しません。",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "戦闘支援スキルは、戦闘担当のナビゲーターにセットしないと効果を発揮しません。"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、ターン終了時に味方全体のＨＰが小回復する",
+    "cost": "PG：2",
+    "exampleExtractFrom": [
+      "【女教皇】アメノウズメ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "治癒の神通力",
+    "name": {
+      "kr": "치유의 신통력",
+      "en": null,
+      "jp": "治癒の神通力"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体のＨＰを中回復する（戦闘中のみ） ※回復量はメディラマと同程度",
+    "cost": "PG：3",
+    "exampleExtractFrom": [
+      "【正義】ソロネ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "英気の泉",
+    "name": {
+      "kr": "영기의 샘",
+      "en": null,
+      "jp": "英気の泉"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "毎ターン、味方全体のHPが5%回復する",
+    "cost": "なし（自動発動）",
+    "exampleExtractFrom": [
+      "【恋愛】リャナンシー"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "勝利の息吹",
+    "name": {
+      "kr": "승리의 숨결",
+      "en": null,
+      "jp": "勝利の息吹"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘終了時に味方全体のＨＰが20%回復する",
+    "cost": "なし（自動発動）",
+    "exampleExtractFrom": [
+      "【正義】アークエンジェル"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "勝利の雄叫び",
+    "name": {
+      "kr": "승리의 외침",
+      "en": null,
+      "jp": "勝利の雄叫び"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘終了時に味方全体のＨＰが全回復する",
+    "cost": "なし（自動発動）",
+    "exampleExtractFrom": [
+      "【悪魔】ベルゼブブ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "黄泉返し",
+    "name": {
+      "kr": "황천 반환",
+      "en": null,
+      "jp": "黄泉返し"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方１体の戦闘不能状態を治療し、ＨＰ50%で回復する",
+    "cost": "PG：3",
+    "exampleExtractFrom": [
+      "【法王】シーサー"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "浄化の雨",
+    "name": {
+      "kr": "정화의 비",
+      "en": null,
+      "jp": "浄化の雨"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体の状態異常と封じを治療する",
+    "cost": "PG：2",
+    "exampleExtractFrom": [
+      "【法王】だいそうじょう",
+      "【月】カグヤ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "剛力の法力",
+    "name": {
+      "kr": "강력 법력",
+      "en": null,
+      "jp": "剛力の法力"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "強化支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の物理攻撃力と属性攻撃力を上昇させる",
+    "cost": "PG：2",
+    "exampleExtractFrom": [
+      "【戦車】キマイラ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "強硬の法力",
+    "name": {
+      "kr": "강경의 법력",
+      "en": null,
+      "jp": "強硬の法力"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "強化支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の物理防御力と属性防御力を上昇させる",
+    "cost": "PG：2",
+    "exampleExtractFrom": [
+      "【月】オンモラキ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "敏速の法力",
+    "name": {
+      "kr": "신속한 법력",
+      "en": null,
+      "jp": "敏速の法力"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "強化支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "３ターンの間、味方全体の命中率と回避率を上昇させる",
+    "cost": "PG：2",
+    "exampleExtractFrom": [
+      "【女教皇】ガンガー"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "久遠の調べ",
+    "name": {
+      "kr": "구원의 조사",
+      "en": null,
+      "jp": "久遠の調べ"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "強化支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "強化スキルの効果時間が３ターン延長される",
+    "cost": "PG：3",
+    "exampleExtractFrom": [
+      "【節制】ゲンブ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "スタコラフット",
+    "name": {
+      "kr": "스타코라 발",
+      "en": null,
+      "jp": "スタコラフット"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "その他",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "戦闘から離脱し、同フロアの進入口まで逃走する",
+    "cost": "PG：1",
+    "exampleExtractFrom": [],
+    "source": "support"
+  },
+  {
+    "id": "蛇ニラミ",
+    "name": {
+      "kr": "뱀 노려",
+      "en": null,
+      "jp": "蛇ニラミ"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "その他",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "敵からの先制攻撃を高確率で阻止する",
+    "cost": "なし（自動発動）",
+    "exampleExtractFrom": [
+      "【月】ノズチ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "豊漁祈願",
+    "name": {
+      "kr": "풍어 기원",
+      "en": null,
+      "jp": "豊漁祈願"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "その他",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "倒した敵の素材を入手する確率が少し上がる",
+    "cost": "なし（自動発動）",
+    "exampleExtractFrom": [
+      "【隠者】アズミ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "大豊漁",
+    "name": {
+      "kr": "대 풍어",
+      "en": null,
+      "jp": "大豊漁"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "その他",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "倒した敵の素材を入手する確率が上がる",
+    "cost": "なし（自動発動）",
+    "exampleExtractFrom": [
+      "【隠者】アズミ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "探索支援スキルは、迷宮担当のナビゲーターにセットしないと効果を発揮しません。",
+    "name": {
+      "kr": null,
+      "en": null,
+      "jp": "探索支援スキルは、迷宮担当のナビゲーターにセットしないと効果を発揮しません。"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "迷宮を一歩進む度に味方全体のＨＰが小回復する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【女教皇】パールヴァティ"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "光の路",
+    "name": {
+      "kr": "빛의 길",
+      "en": null,
+      "jp": "光の路"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "迷宮を一歩進む度に味方全体のＨＰが回復する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【正義】ウリエル"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "光の天路",
+    "name": {
+      "kr": "빛의 골목",
+      "en": null,
+      "jp": "光の天路"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "はじめに",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "迷宮を一歩進む度に味方全体のＳＰが小回復する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【刑死者】アティス"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "財宝ハンター",
+    "name": {
+      "kr": "보물 사냥꾼",
+      "en": null,
+      "jp": "財宝ハンター"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "探索支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "周囲に存在する宝箱の位置を地図に表示する（赤色の反応）",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【剛毅】ザントマン"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "秘宝ハンター",
+    "name": {
+      "kr": "보물 사냥꾼",
+      "en": null,
+      "jp": "秘宝ハンター"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "探索支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "広い周囲に存在する宝箱の位置を地図に表示する（赤色の反応）",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "support"
+  },
+  {
+    "id": "妖精の抜け穴",
+    "name": {
+      "kr": "요정의 허점",
+      "en": null,
+      "jp": "妖精の抜け穴"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "探索支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "周囲に存在する抜け道を地図に表示する（緑色の反応）",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【刑死者】コロポックル"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "天狗の抜け穴",
+    "name": {
+      "kr": "天狗の抜け穴",
+      "en": null,
+      "jp": "天狗の抜け穴"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "探索支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "広い周囲に存在する抜け道を地図に表示する（緑色の反応）",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "support"
+  },
+  {
+    "id": "千里眼",
+    "name": {
+      "kr": "천리안",
+      "en": null,
+      "jp": "千里眼"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "探索支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "周囲に存在する宝箱、抜け道、FOEを地図に表示する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【星】ヤタガラス"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "万里眼",
+    "name": {
+      "kr": "만리 눈",
+      "en": null,
+      "jp": "万里眼"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "探索支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "広い周囲に存在する宝箱、抜け道、FOEを地図に表示する",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "support"
+  },
+  {
+    "id": "おまじない",
+    "name": {
+      "kr": "주술",
+      "en": null,
+      "jp": "おまじない"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "採集支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "採集時のレア素材の入手確率が少し上がる",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【魔術師】アガシオン"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "打ち出の小槌",
+    "name": {
+      "kr": "打出の小槌",
+      "en": null,
+      "jp": "打ち出の小槌"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "採集支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "採集時のレア素材の入手確率が上がる",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "support"
+  },
+  {
+    "id": "豊穣祈願",
+    "name": {
+      "kr": "풍요 기원",
+      "en": null,
+      "jp": "豊穣祈願"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "採集支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "レア素材の入手確率が上がり、採取回数がまれに増えることがある",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【魔術師】ディース"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "大豊作",
+    "name": {
+      "kr": "풍작",
+      "en": null,
+      "jp": "大豊作"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "採集支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "レア素材の入手確率が上がり、採取回数が増えることがある",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "support"
+  },
+  {
+    "id": "安全祈願",
+    "name": {
+      "kr": "안전 기원",
+      "en": null,
+      "jp": "安全祈願"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "採集支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "パワースポットで少しだけ安全に採集出来るようになる",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【太陽】カーシー"
+    ],
+    "source": "support"
+  },
+  {
+    "id": "大安心",
+    "name": {
+      "kr": "큰 안심",
+      "en": null,
+      "jp": "大安心"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "採集支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "パワースポットで安全に採集出来るようになる",
+    "cost": null,
+    "exampleExtractFrom": [],
+    "source": "support"
+  },
+  {
+    "id": "光の小路",
+    "name": {
+      "kr": "빛의 골목",
+      "en": null,
+      "jp": "光の小路"
+    },
+    "topCategory": "探索支援スキル",
+    "subCategory": "自動回復",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": false,
+    "inheritRestrictionNote": null,
+    "effect": "迷宮を一歩進む度に味方全体のＨＰが小回復する",
+    "cost": null,
+    "exampleExtractFrom": [
+      "【女教皇】パールヴァティ"
+    ],
+    "source": "manual"
+  },
+  {
+    "id": "治癒の法力",
+    "name": {
+      "kr": "치유의 법력",
+      "en": null,
+      "jp": "治癒の法力"
+    },
+    "topCategory": "戦闘支援スキル",
+    "subCategory": "回復支援",
+    "category": null,
+    "alwaysInheritable": true,
+    "everInheritable": true,
+    "inheritRestrictionNote": null,
+    "effect": "味方全体のＨＰを小回復する（戦闘中のみ）※回復量はメディアと同程度",
+    "cost": "PG：2",
+    "exampleExtractFrom": [
+      "【女教皇】アメノウズメ"
+    ],
+    "source": "manual"
+  }
+]
