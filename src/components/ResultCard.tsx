@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { Skill } from '@/types/skill';
 import type { MaterialSlot } from '@/types/material';
 import type { FusionResult } from '@/types/fusionResult';
@@ -47,10 +47,13 @@ export default function ResultCard({
         totalSkillCount,
     );
 
-    const inheritCandidates =
-        result?.ok === true
-            ? buildInheritCandidates(materials, result.resultPersona)
-            : [];
+    const inheritCandidates = useMemo(
+        () =>
+            result?.ok === true
+                ? buildInheritCandidates(materials, result.resultPersona)
+                : [],
+        [result, materials],
+    );
 
     const baseSkills =
         result?.ok === true
@@ -81,6 +84,18 @@ export default function ResultCard({
             if (prev.length >= inheritSlotCount) return prev; // 슬롯 꽉 찼으면 무시하고 그대로
             return [...prev, key]; // 새로 체크
         });
+    }
+
+    const [prevInheritCandidates, setPrevInheritCandidates] =
+        useState(inheritCandidates);
+    if (inheritCandidates !== prevInheritCandidates) {
+        setPrevInheritCandidates(inheritCandidates);
+        const validKeys = new Set(
+            inheritCandidates.map((c) => skillKey(c.skill)),
+        );
+        setSelectedInheritKeys((prev) =>
+            prev.filter((key) => validKeys.has(key)),
+        );
     }
 
     return (
