@@ -2073,7 +2073,7 @@
       "effect": "강화 스킬의 지속 기간이 3턴 연장된다."
     },
     "sk_303": {
-      "name": "스타코라 풋",
+      "name": "후다닥 발",
       "effect": "전투에서 이탈하여 같은 층의 입구까지 도망친다."
     },
     "sk_304": {
@@ -2191,6 +2191,34 @@
     "sk_332": {
       "name": "대안심",
       "effect": "파워 스폿에서 안전하게 채집할 수 있게 된다."
+    }
+  },
+  "fusion": {
+    "errors": {
+      "forbiddenMaterials": "{names}는 같은 합체에 재료로 함께 쓸 수 없습니다.",
+      "missingSpecialResult": "특수합체 결과 페르소나({persona})를 데이터에서 찾을 수 없습니다.",
+      "sameArcanaNoResult": "이 아르카나에서 레벨이 가장 낮은 두 페르소나로는 동일 아르카나 합체를 할 수 없습니다.",
+      "normalUnavailable": "이 두 아르카나 조합은 노말 스프레드로 합체할 수 없습니다.",
+      "noResultInArcana": "결과 아르카나({arcana})에 합체 가능한 페르소나가 없습니다.",
+      "sameArcanaTriangleNoResult": "이 아르카나에서 레벨이 가장 높은 세 페르소나로는 동일 아르카나 합체를 할 수 없습니다.",
+      "triangleStep1Unavailable": "1단계(재료1×재료2) 조합이 노말 스프레드 표에 없어서 트라이앵글 스프레드를 계산할 수 없습니다.",
+      "triangleStep2Unavailable": "2단계(중간 아르카나×재료3) 조합이 트라이앵글 스프레드 표에 없습니다."
+    },
+    "spread": {
+      "normal": "노말 스프레드",
+      "sameArcana": "동일 아르카나 합체",
+      "triangle": "트라이앵글 스프레드",
+      "sameArcanaTriangle": "동일 아르카나 트라이앵글",
+      "special": "특수합체"
+    },
+    "result": {
+      "selectMaterials": "재료 2개를 선택하면 결과가 여기 표시됩니다.",
+      "capped": "조건에 맞는 상위 페르소나가 없어 최고 레벨로 대체됨",
+      "baseSkills": "기본 획득 스킬 (총 {count}개)",
+      "inheritSkills": "계승 스킬 선택 ({selected}/{total})",
+      "notInheritable": "계승 불가",
+      "finalSkills": "최종 스킬 리스트 ({count}개)",
+      "initialSkill": "초기"
     }
   }
 }

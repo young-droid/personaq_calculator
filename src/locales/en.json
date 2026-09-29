@@ -2192,5 +2192,33 @@
       "name": "Calming Lull",
       "effect": "Gather safely from Power Spots."
     }
+  },
+  "fusion": {
+    "errors": {
+      "forbiddenMaterials": "{names} cannot be used together in the same fusion.",
+      "missingSpecialResult": "The special fusion result ({persona}) could not be found in the data.",
+      "sameArcanaNoResult": "The two lowest-level Personas in this Arcana cannot perform a same-Arcana fusion.",
+      "normalUnavailable": "This Arcana combination cannot perform a Normal Spread.",
+      "noResultInArcana": "No eligible Persona exists in the result Arcana ({arcana}).",
+      "sameArcanaTriangleNoResult": "The three highest-level Personas in this Arcana cannot perform a same-Arcana fusion.",
+      "triangleStep1Unavailable": "Triangle Spread cannot be calculated because the first-step combination (material 1 × material 2) is absent from the Normal Spread table.",
+      "triangleStep2Unavailable": "The second-step combination (intermediate Arcana × material 3) is absent from the Triangle Spread table."
+    },
+    "spread": {
+      "normal": "Normal Spread",
+      "sameArcana": "Same-Arcana Fusion",
+      "triangle": "Triangle Spread",
+      "sameArcanaTriangle": "Same-Arcana Triangle",
+      "special": "Special Fusion"
+    },
+    "result": {
+      "selectMaterials": "Select two materials to see the result here.",
+      "capped": "No higher Persona meets the requirement; using the highest-level Persona",
+      "baseSkills": "Learned skills ({count})",
+      "inheritSkills": "Select inherited skills ({selected}/{total})",
+      "notInheritable": "Cannot inherit",
+      "finalSkills": "Final skill list ({count})",
+      "initialSkill": "Initial"
+    }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "levelOffsets": {
+    "normal": 1,
+    "triangle": 5
+  },
+  "inheritanceThresholds": [
+    {
+      "totalMaterialSkillsMax": 5,
+      "slots": 1
+    },
+    {
+      "totalMaterialSkillsMin": 6,
+      "totalMaterialSkillsMax": 8,
+      "slots": 2
+    },
+    {
+      "totalMaterialSkillsMin": 9,
+      "totalMaterialSkillsMax": 12,
+      "slots": 3
+    },
+    {
+      "totalMaterialSkillsMin": 13,
+      "slots": 4
+    }
+  ],
+  "forbiddenMaterialGroups": [
+    [
+      "ps_189",
+      "ps_187"
+    ]
+  ]
+}

@@ -5,6 +5,7 @@
 import ja from '@/locales/ja.json';
 import ko from '@/locales/ko.json';
 import en from '@/locales/en.json';
+import type { FusionFailureReason, FusionResult } from '@/types/fusionResult';
 
 export type Lang = 'ja' | 'ko' | 'en';
 
@@ -12,6 +13,11 @@ export const DEFAULT_LANG: Lang = 'ko';
 
 type Locale = {
     ui: Record<string, string>;
+    fusion: {
+        errors: Record<FusionFailureReason['code'], string>;
+        spread: Record<Extract<FusionResult, { ok: true }>['spreadType'], string>;
+        result: Record<keyof typeof ko.fusion.result, string>;
+    };
     arcana: Record<string, string>;
     owner: Record<string, string>;
     kind: Record<string, string>;
@@ -94,4 +100,43 @@ export function label(
     lang: Lang = DEFAULT_LANG,
 ): string {
     return lookup(lang, (l) => l[section][code]) ?? code;
+}
+
+// 문장 안의 {count}, {persona} 같은 자리에 표시할 값을 넣는다.
+function interpolate(template: string, values: Record<string, string | number>): string {
+    return template.replace(/\{(\w+)\}/g, (placeholder, key: string) =>
+        values[key] === undefined ? placeholder : String(values[key]),
+    );
+}
+
+export function fusionReason(reason: FusionFailureReason, lang: Lang = DEFAULT_LANG): string {
+    const values: Record<string, string> = {};
+    switch (reason.code) {
+        case 'forbiddenMaterials':
+            values.names = new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' })
+                .format(reason.personaIds.map((id) => personaName(id, lang)));
+            break;
+        case 'missingSpecialResult':
+            values.persona = personaName(reason.personaId, lang);
+            break;
+        case 'noResultInArcana':
+            values.arcana = arcanaName(reason.arcanaId, lang);
+            break;
+    }
+    return interpolate(lookup(lang, (l) => l.fusion.errors[reason.code]) ?? reason.code, values);
+}
+
+export function fusionSpreadName(
+    spread: Extract<FusionResult, { ok: true }>['spreadType'],
+    lang: Lang = DEFAULT_LANG,
+): string {
+    return lookup(lang, (l) => l.fusion.spread[spread]) ?? spread;
+}
+
+export function fusionResultText(
+    key: keyof typeof ko.fusion.result,
+    lang: Lang = DEFAULT_LANG,
+    values: Record<string, string | number> = {},
+): string {
+    return interpolate(lookup(lang, (l) => l.fusion.result[key]) ?? key, values);
 }

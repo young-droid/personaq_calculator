@@ -1,4 +1,4 @@
-import { personaName, arcanaName } from '@/lib/i18n';
+import { personaName, arcanaName, fusionReason, fusionSpreadName, fusionResultText, DEFAULT_LANG, type Lang } from '@/lib/i18n';
 import { useMemo, useState } from 'react';
 import type { Skill } from '@/types/skill';
 import type { MaterialSlot } from '@/types/material';
@@ -11,28 +11,21 @@ import {
     skillDisplayName,
     skillKey,
     skillLevelTag,
-    type SkillInheritanceThreshold,
 } from '@/lib/inherit';
-import formulasData from '@/data/fusionFormulas.json';
+import fusionSettings from '@/data/fusionSettings.json';
 
 type Props = {
     result: FusionResult | null;
     requiredSelected: boolean;
     materials: MaterialSlot[];
-};
-
-const SPREAD_LABELS: Record<string, string> = {
-    normal: '노말 스프레드',
-    sameArcana: '동일 아르카나 합체',
-    triangle: '트라이앵글 스프레드',
-    sameArcanaTriangle: '동일 아르카나 트라이앵글',
-    special: '특수합체',
+    lang?: Lang;
 };
 
 export default function ResultCard({
     result,
     requiredSelected,
     materials,
+    lang = DEFAULT_LANG,
 }: Props) {
     const [selectedInheritKeys, setSelectedInheritKeys] = useState<string[]>(
         [],
@@ -43,8 +36,7 @@ export default function ResultCard({
     );
 
     const inheritSlotCount = computeInheritSlotCount(
-        formulasData.skillInheritanceSlots
-            .thresholds as SkillInheritanceThreshold[],
+        fusionSettings.inheritanceThresholds,
         totalSkillCount,
     );
 
@@ -103,7 +95,7 @@ export default function ResultCard({
         <div className="rounded-xl border border-dashed border-zinc-300 p-4 text-sm  dark:border-zinc-700">
             {!requiredSelected && (
                 <span className="text-zinc-400">
-                    재료 2개를 선택하면 결과가 여기 표시될 예정
+                    {fusionResultText('selectMaterials', lang)}
                 </span>
             )}
             {result?.ok === true && (
@@ -112,14 +104,14 @@ export default function ResultCard({
                         <div className="flex flex-col gap-1.5">
                             <div className="flex items-baseline gap-2">
                                 <span className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-                                    {personaName(result.resultPersona.id)}
+                                    {personaName(result.resultPersona.id, lang)}
                                 </span>
                                 <span className="text-xs text-zinc-400">
-                                    {SPREAD_LABELS[result.spreadType]}
+                                    {fusionSpreadName(result.spreadType, lang)}
                                 </span>
                             </div>
                             <div className="text-xs text-zinc-400 dark:text-zinc-400">
-                                {arcanaName(result.resultArcana)} · Lv.
+                                {arcanaName(result.resultArcana, lang)} · Lv.
                                 {result.resultPersona.level}
                             </div>{' '}
                             <div className="flex flex-col  text-zinc-400 dark:text-zinc-400">
@@ -130,14 +122,13 @@ export default function ResultCard({
                             </div>
                             {result.capped && (
                                 <div className="text-xs text-zinc-400">
-                                    (평균보다 높은 페르소나가 없어 최고 레벨로
-                                    대체됨)
+                                    {fusionResultText('capped', lang)}
                                 </div>
                             )}
                         </div>
                         <div className="mt-1 flex flex-col gap-1">
                             <div className="text-xs font-semibold text-zinc-500">
-                                기본 획득 스킬 (총 {baseSkills.length}개)
+                                {fusionResultText('baseSkills', lang, { count: baseSkills.length })}
                             </div>
                             <ul className="grid grid-cols-1 gap-1">
                                 {baseSkills.map((s) => {
@@ -153,7 +144,7 @@ export default function ResultCard({
                                                     : 'flex flex-row justify-between rounded-md border border-zinc-200 bg-zinc-50 px-1.5 py-0.5 text-xs text-zinc-700 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300'
                                             }
                                         >
-                                            {skillDisplayName(s)}
+                                            {skillDisplayName(s, lang)}
                                             <span
                                                 className={
                                                     isSkillCard
@@ -161,7 +152,7 @@ export default function ResultCard({
                                                         : 'text-zinc-400'
                                                 }
                                             >
-                                                {skillLevelTag(s)}
+                                                {skillLevelTag(s, lang)}
                                             </span>
                                         </li>
                                     );
@@ -172,8 +163,7 @@ export default function ResultCard({
                     <div className="flex flex-col">
                         <div className="flex flex-col gap-1">
                             <div className="text-xs font-semibold text-zinc-500">
-                                계승 스킬 선택 ({selectedInheritKeys.length}/
-                                {inheritSlotCount})
+                                {fusionResultText('inheritSkills', lang, { selected: selectedInheritKeys.length, total: inheritSlotCount })}
                             </div>
                             <ul className="grid grid-cols-2 gap-1">
                                 {inheritCandidates.map((c) => {
@@ -212,11 +202,11 @@ export default function ResultCard({
                                                             : ''
                                                     }
                                                 >
-                                                    {skillDisplayName(c.skill)}
+                                                    {skillDisplayName(c.skill, lang)}
                                                 </span>
                                                 {!c.eligible && (
                                                     <span className="justify-self-end text-[10px]">
-                                                        (계승 불가)
+                                                        {fusionResultText('notInheritable', lang)}
                                                     </span>
                                                 )}
                                             </label>
@@ -227,7 +217,7 @@ export default function ResultCard({
                         </div>
                         <div className="mt-2 flex flex-col gap-1 border-t pt-2 border-zinc-100 dark:border-zinc-800">
                             <div className="text-xs font-semibold text-zinc-500">
-                                최종 스킬 리스트 ({finalSkills.length}개)
+                                {fusionResultText('finalSkills', lang, { count: finalSkills.length })}
                             </div>
                             <ul className="grid grid-cols-2 gap-1">
                                 {finalSkills.map((s) => (
@@ -235,7 +225,7 @@ export default function ResultCard({
                                         key={skillKey(s)}
                                         className="rounded-md border border-zinc-300 bg-white px-1.5 py-0.5 text-xs text-zinc-900 dark:border-zinc-600 dark:bg-zinc-900 dark:text-zinc-50"
                                     >
-                                        {skillDisplayName(s)}
+                                        {skillDisplayName(s, lang)}
                                     </li>
                                 ))}
                             </ul>
@@ -244,7 +234,7 @@ export default function ResultCard({
                 </div>
             )}
             {result?.ok === false && (
-                <span className="text-red-500">{result.reason}</span>
+                <span className="text-red-500">{fusionReason(result.reason, lang)}</span>
             )}
         </div>
     );

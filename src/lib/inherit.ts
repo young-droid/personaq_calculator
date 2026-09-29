@@ -9,7 +9,7 @@ export const MAX_MATERIAL_SKILLS = 6;
 
 // 스킬 정의와 페르소나별 습득 레벨은 분리되어 있다.
 import skillsData from '@/data/skills.json';
-import { skillName } from '@/lib/i18n';
+import { skillName, fusionResultText, DEFAULT_LANG, type Lang } from '@/lib/i18n';
 
 export type LearnedSkill = Skill & { learnLevel?: number | null };
 const skillsById = new Map<string, Skill>(skillsData.map((s) => [s.id, s]));
@@ -27,8 +27,8 @@ export function getOwnedSkills(persona: Persona, currentLevel: number): LearnedS
     );
 }
 
-export function skillLevelTag(skill: LearnedSkill): string {
-    if (skill.learnLevel === null) return '초기';
+export function skillLevelTag(skill: LearnedSkill, lang: Lang = DEFAULT_LANG): string {
+    if (skill.learnLevel === null) return fusionResultText('initialSkill', lang);
     return skill.learnLevel === undefined ? '-' : String(skill.learnLevel);
 }
 
@@ -36,8 +36,8 @@ export function skillKey(skill: Skill): string {
     return skill.id;
 }
 
-export function skillDisplayName(skill: Skill): string {
-    return skillName(skill.id);
+export function skillDisplayName(skill: Skill, lang: Lang = DEFAULT_LANG): string {
+    return skillName(skill.id, lang);
 }
 
 export type InheritCandidate = {

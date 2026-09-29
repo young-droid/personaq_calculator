@@ -2192,5 +2192,33 @@
       "name": "大安心",
       "effect": "パワースポットで安全に採集出来るようになる"
     }
+  },
+  "fusion": {
+    "errors": {
+      "forbiddenMaterials": "{names}を同じ合体の素材として同時に使用することはできません。",
+      "missingSpecialResult": "特殊合体の結果ペルソナ（{persona}）がデータに見つかりません。",
+      "sameArcanaNoResult": "このアルカナでレベルが最も低い2体では、同一アルカナ合体はできません。",
+      "normalUnavailable": "このアルカナの組み合わせでは、ノーマルスプレッドはできません。",
+      "noResultInArcana": "結果のアルカナ（{arcana}）に合体可能なペルソナがありません。",
+      "sameArcanaTriangleNoResult": "このアルカナでレベルが最も高い3体では、同一アルカナ合体はできません。",
+      "triangleStep1Unavailable": "第1段階（素材1×素材2）の組み合わせがノーマルスプレッド表にないため、トライアングルスプレッドを計算できません。",
+      "triangleStep2Unavailable": "第2段階（中間アルカナ×素材3）の組み合わせがトライアングルスプレッド表にありません。"
+    },
+    "spread": {
+      "normal": "ノーマルスプレッド",
+      "sameArcana": "同一アルカナ合体",
+      "triangle": "トライアングルスプレッド",
+      "sameArcanaTriangle": "同一アルカナトライアングル",
+      "special": "特殊合体"
+    },
+    "result": {
+      "selectMaterials": "素材を2体選択すると、ここに結果が表示されます。",
+      "capped": "条件を満たす上位ペルソナがないため、最高レベルのペルソナを使用",
+      "baseSkills": "習得スキル（計{count}個）",
+      "inheritSkills": "継承スキル選択（{selected}/{total}）",
+      "notInheritable": "継承不可",
+      "finalSkills": "最終スキル一覧（{count}個）",
+      "initialSkill": "初期"
+    }
   }
 }
