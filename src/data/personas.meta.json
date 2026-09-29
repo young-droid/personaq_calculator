@@ -1,0 +1,885 @@
+{
+  "ps_001": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_002": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_003": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "오르페우스 · 개"
+  },
+  "ps_004": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_005": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "자 액세스 프로스트"
+  },
+  "ps_006": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "데카 라비아"
+  },
+  "ps_007": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_008": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_009": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아가 시온"
+  },
+  "ps_010": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "오로 바스"
+  },
+  "ps_011": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_012": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "카하쿠"
+  },
+  "ps_013": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "잭오 랜턴"
+  },
+  "ps_014": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_015": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "랜덤"
+  },
+  "ps_016": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_017": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "수 르트"
+  },
+  "ps_018": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아직"
+  },
+  "ps_019": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_020": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "하이 픽시"
+  },
+  "ps_021": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_022": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "진주 바 티"
+  },
+  "ps_023": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "levelCorrected": true
+  },
+  "ps_024": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "쯔ィ쯔ィ미토루"
+  },
+  "ps_025": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "스카 사크"
+  },
+  "ps_026": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "야쿠시니"
+  },
+  "ps_027": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_028": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_029": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_030": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_031": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "마더 하드 로트"
+  },
+  "ps_032": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "락쉬미"
+  },
+  "ps_033": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아리라토"
+  },
+  "ps_034": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "levelCorrected": true
+  },
+  "ps_035": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_036": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_037": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "오오 크니 누시"
+  },
+  "ps_038": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_039": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "파빌 사그"
+  },
+  "ps_040": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "킨구"
+  },
+  "ps_041": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "바론"
+  },
+  "ps_042": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_043": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_044": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "시서"
+  },
+  "ps_045": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_046": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_047": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "후라로우스"
+  },
+  "ps_048": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "미샤구지 님",
+    "levelCorrected": true
+  },
+  "ps_049": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_050": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "하찌만"
+  },
+  "ps_051": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "교류"
+  },
+  "ps_052": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_053": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_054": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "모 · 쇼보"
+  },
+  "ps_055": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "퀸 메이부"
+  },
+  "ps_056": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "랴 난시"
+  },
+  "ps_057": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_058": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "큐 베레"
+  },
+  "ps_059": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_060": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "나타타이시"
+  },
+  "ps_061": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_062": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "에리고루"
+  },
+  "ps_063": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_064": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_065": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "오오미쯔누"
+  },
+  "ps_066": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "토리구라후",
+    "levelCorrected": true
+  },
+  "ps_067": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "설치"
+  },
+  "ps_068": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아타바쿠"
+  },
+  "ps_069": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "후쯔누시"
+  },
+  "ps_070": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_071": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아크 엔젤"
+  },
+  "ps_072": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_073": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "바르 처",
+    "levelCorrected": true
+  },
+  "ps_074": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "도미니언"
+  },
+  "ps_075": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "소로네"
+  },
+  "ps_076": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_077": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "오화니무"
+  },
+  "ps_078": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "메루키세데쿠"
+  },
+  "ps_079": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_080": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "잇뽄다타라"
+  },
+  "ps_081": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "levelCorrected": true
+  },
+  "ps_082": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_083": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_084": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_085": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "요구 호그"
+  },
+  "ps_086": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_087": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_088": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "온교오키"
+  },
+  "ps_089": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "엔뿌사"
+  },
+  "ps_090": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_091": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "크로"
+  },
+  "ps_092": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_093": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아 난타"
+  },
+  "ps_094": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_095": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_096": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "잔트 만"
+  },
+  "ps_097": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_098": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_099": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "츠 치구 모"
+  },
+  "ps_100": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "나찰"
+  },
+  "ps_101": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_102": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "오야마 쓰 미노 카미",
+    "sourceNote": "합체 제한이 있기 때문에 QR 코드 배포 불가"
+  },
+  "ps_103": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "지그프리드"
+  },
+  "ps_104": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_105": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_106": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "코로봇쿠루"
+  },
+  "ps_107": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "벨리스"
+  },
+  "ps_108": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "요모쯔이쿠사"
+  },
+  "ps_109": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "오르 트 로스"
+  },
+  "ps_110": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "야쯔후사"
+  },
+  "ps_111": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "지옥의 천사"
+  },
+  "ps_112": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "봐스키"
+  },
+  "ps_113": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_114": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_115": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "투우사"
+  },
+  "ps_116": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "투루다쿠",
+    "sourceNote": "합체 제한이 있기 때문에 QR 코드 배포 불가"
+  },
+  "ps_117": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "화이트 라이더"
+  },
+  "ps_118": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_119": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "모토"
+  },
+  "ps_120": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_121": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "페일 라이더"
+  },
+  "ps_122": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_123": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "마하카라"
+  },
+  "ps_124": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아프 사라 스",
+    "levelCorrected": true
+  },
+  "ps_125": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "해 지성"
+  },
+  "ps_126": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_127": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_128": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "정류"
+  },
+  "ps_129": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "스자쿠"
+  },
+  "ps_130": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_131": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_132": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "우코바쿠"
+  },
+  "ps_133": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_134": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "levelCorrected": true
+  },
+  "ps_135": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "빠즈스"
+  },
+  "ps_136": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "sourceNote": "합체 제한이 있기 때문에 QR 코드 배포 불가"
+  },
+  "ps_137": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_138": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "벨리알"
+  },
+  "ps_139": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "벨페 고르"
+  },
+  "ps_140": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_141": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "바알세불"
+  },
+  "ps_142": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "라이쥬우"
+  },
+  "ps_143": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_144": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_145": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_146": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "세이 텐 세이"
+  },
+  "ps_147": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "마사 카도"
+  },
+  "ps_148": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_149": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_150": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "슈"
+  },
+  "ps_151": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "마가쯔이자나기"
+  },
+  "ps_152": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "사라스봐티"
+  },
+  "ps_153": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "야타가 라스"
+  },
+  "ps_154": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "네코쇼오군"
+  },
+  "ps_155": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "기웅"
+  },
+  "ps_156": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_157": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_158": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "카루티케야"
+  },
+  "ps_159": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_160": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "루시퍼"
+  },
+  "ps_161": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_162": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "안드라스",
+    "levelCorrected": true
+  },
+  "ps_163": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_164": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "노즈찌",
+    "levelCorrected": true
+  },
+  "ps_165": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "야마타 노 오로치"
+  },
+  "ps_166": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_167": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_168": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "체루노보구"
+  },
+  "ps_169": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "세토"
+  },
+  "ps_170": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "바알 제부루"
+  },
+  "ps_171": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "샌들 폰"
+  },
+  "ps_172": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "쿼시"
+  },
+  "ps_173": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "칠 색조"
+  },
+  "ps_174": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "나라신하"
+  },
+  "ps_175": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "코끼리"
+  },
+  "ps_176": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "탐린"
+  },
+  "ps_177": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "쟈 타유"
+  },
+  "ps_178": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "스빠루나"
+  },
+  "ps_179": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "아스라 왕"
+  },
+  "ps_180": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "레드 라이더"
+  },
+  "ps_181": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_182": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "블랙 라이더"
+  },
+  "ps_183": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "트럼펫"
+  },
+  "ps_184": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_185": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_186": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  },
+  "ps_187": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "중장기 제우스",
+    "sourceNote": "합체 제한이 있기 때문에 QR 코드 배포 불가"
+  },
+  "ps_188": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "rawNameFromSource": "알다"
+  },
+  "ps_189": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org",
+    "sourceNote": "합체 제한이있다 \"중장기 제우스 '가 필요한 특수 합체이므로 QR 코드 배포 불가"
+  },
+  "ps_190": {
+    "nameSource": "namuwiki",
+    "nameSourceJp": "privespa.org"
+  }
+}

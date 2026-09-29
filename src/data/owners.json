@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ow_messiah",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_izanagi_no_okami",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_isis",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_trismegistus",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_caesar",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_artemisia",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_athena",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_kala_nemi",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_cerberus",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_castor",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_lucia",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_susano_o",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_suzuka_gongen",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_amaterasu",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_rokuten_maou",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_kamui",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_yamato_takeru",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_himiko",
+    "type": "partyPersona"
+  },
+  {
+    "id": "ow_zen",
+    "type": "character"
+  },
+  {
+    "id": "ow_rei",
+    "type": "character"
+  }
+]
