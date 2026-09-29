@@ -3,6 +3,7 @@
 // 이게 있으면 이 파일은 "클라이언트 컴포넌트"가 돼서 브라우저에서 실행돼.
 // useState 같은 훅, onChange 같은 이벤트 핸들러는 클라이언트 컴포넌트에서만 쓸 수 있어.
 
+import { personaName, arcanaName } from '@/lib/i18n';
 import { useState } from "react";
 import type { Persona } from "@/types/persona";
 
@@ -17,7 +18,7 @@ export default function PersonaSearch({ personas }: Props) {
   const [query, setQuery] = useState("");
 
   // 매 렌더링마다 query 기준으로 필터링. (배열이 크지 않으니 useMemo 없이 이렇게 써도 충분)
-  const filtered = personas.filter((p) => p.name.kr.includes(query));
+  const filtered = personas.filter((p) => personaName(p.id).includes(query));
 
   return (
     <div className="flex flex-col gap-3">
@@ -39,9 +40,9 @@ export default function PersonaSearch({ personas }: Props) {
             key={p.id}
             className="flex items-center justify-between rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm dark:border-zinc-800 dark:bg-zinc-900"
           >
-            <span className="font-medium text-zinc-900 dark:text-zinc-50">{p.name.kr}</span>
+            <span className="font-medium text-zinc-900 dark:text-zinc-50">{personaName(p.id)}</span>
             <span className="text-xs text-zinc-400">
-              {p.arcana} · Lv.{p.level}
+              {arcanaName(p.arcana)} · Lv.{p.level}
             </span>
           </li>
         ))}

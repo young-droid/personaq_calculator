@@ -7,48 +7,37 @@ import type { Skill } from '@/types/skill';
 
 export const MAX_MATERIAL_SKILLS = 6;
 
-/** acquiredAt 값을 레벨 숫자로 변환. "initial" → 0, 숫자 → 그대로, 그 외 → 뽑아낼 수 있으면 숫자, 아니면 null */
-function parseAcquiredAt(raw: Skill['acquiredAt']): number | null {
-    if (raw === 'initial') return 0;
-    if (typeof raw === 'number') return raw;
-    const m = String(raw ?? '').match(/\d+/);
-    if (m) return parseInt(m[0], 10);
-    return null;
-}
+// 스킬 정의와 페르소나별 습득 레벨은 분리되어 있다.
+import skillsData from '@/data/skills.json';
+import { skillName } from '@/lib/i18n';
 
-/** 원본 데이터 파싱 잔재로 생긴 "빈 슬롯" 스킬(이름이 "-") 걸러내기 */
-export function isPlaceholderSkill(skill: Skill): boolean {
-    return skill.name?.kr === '-' && !skill.name?.jp;
-}
+export type LearnedSkill = Skill & { learnLevel?: number | null };
+const skillsById = new Map<string, Skill>(skillsData.map((s) => [s.id, s]));
 
-/** 페르소나가 특정 "현재 레벨"까지 배운 스킬만 골라서 반환 (재료 카드 초기값용) */
-export function getOwnedSkills(
-    persona: Persona,
-    currentLevel: number,
-): Skill[] {
-    return persona.skills.filter((skill) => {
-        if (isPlaceholderSkill(skill)) return false;
-        const lvl = parseAcquiredAt(skill.acquiredAt);
-        if (lvl === null) return true; // 레벨 정보가 깨진 원본 데이터 — 안전하게 보유한 것으로 취급
-        return lvl <= currentLevel;
+export function getPersonaSkills(persona: Persona): LearnedSkill[] {
+    return persona.skills.flatMap(({ skill, learnLevel }) => {
+        const definition = skillsById.get(skill);
+        return definition ? [{ ...definition, learnLevel }] : [];
     });
 }
 
-/** 스킬 표시용 레벨 태그 ("초기" | 숫자 | "-") */
-export function skillLevelTag(skill: Skill): string {
-    if (skill.acquiredAt === 'initial') return '초기';
-    if (typeof skill.acquiredAt === 'number') return String(skill.acquiredAt);
-    return '-';
+export function getOwnedSkills(persona: Persona, currentLevel: number): LearnedSkill[] {
+    return getPersonaSkills(persona).filter(
+        (skill) => skill.learnLevel === null || (skill.learnLevel !== undefined && skill.learnLevel <= currentLevel),
+    );
 }
 
-/** 스킬 중복 판정 키 (jp 이름 우선, 없으면 kr, 그것도 없으면 en) */
+export function skillLevelTag(skill: LearnedSkill): string {
+    if (skill.learnLevel === null) return '초기';
+    return skill.learnLevel === undefined ? '-' : String(skill.learnLevel);
+}
+
 export function skillKey(skill: Skill): string {
-    return skill.name.jp || skill.name.kr || skill.name.en || '';
+    return skill.id;
 }
 
-/** 화면에 표시할 스킬 이름 (kr 우선, 없으면 jp, 그것도 없으면 en) */
 export function skillDisplayName(skill: Skill): string {
-    return skill.name.kr || skill.name.jp || skill.name.en || '(이름 없음)';
+    return skillName(skill.id);
 }
 
 export type InheritCandidate = {
@@ -68,11 +57,9 @@ export function isSkilInheritable(
     skill: Skill,
     resultPersona: Persona,
 ): boolean {
-    if (skill.everInheritable === false) return false;
-    if (skill.alwaysInheritable) return true;
-    const banned = resultPersona.nonInheritableCategories ?? [];
-    if (!skill.category) return true;
-    return !banned.includes(skill.category);
+    if (skill.inherit.inheritable === false || skill.inherit.exclusiveTo.length > 0) return false;
+    const banned = resultPersona.nonInheritable ?? [];
+    return skill.inherit.type === null || !banned.includes(skill.inherit.type);
 }
 
 /** 재료들의 보유 스킬을 모아(중복 제거) 계승 후보 목록을 만든다 */
@@ -85,7 +72,7 @@ export function buildInheritCandidates(
         for (const skill of mat.skills) {
             const key = skillKey(skill);
             if (seen.has(key)) continue;
-            if (skill.name.kr === resultPersona.skillCard) continue;
+            if (skill.id === resultPersona.skillCard) continue;
             seen.set(key, {
                 skill,
                 fromMaterialIndex: idx,
@@ -110,7 +97,5 @@ export function computeInheritSlotCount(
 }
 
 export function getInitialSkills(persona: Persona): Skill[] {
-    return persona.skills.filter(
-        (skill) => !isPlaceholderSkill(skill) && skill.acquiredAt === 'initial',
-    );
+    return getPersonaSkills(persona).filter((skill) => skill.learnLevel === null);
 }

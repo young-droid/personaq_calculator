@@ -1,5 +1,6 @@
 'use client';
 
+import { personaName, arcanaName } from '@/lib/i18n';
 import { ChangeEvent, useState } from 'react';
 import type { Persona } from '@/types/persona';
 import type { Skill } from '@/types/skill';
@@ -113,7 +114,7 @@ export default function MaterialCard({
                 )}
                 {personas.map((p) => (
                     <option key={p.id} value={p.id}>
-                        {p.name.kr}
+                        {personaName(p.id)}
                     </option>
                 ))}
             </select>
@@ -121,7 +122,7 @@ export default function MaterialCard({
             {slot.persona && (
                 <>
                     <div className="text-xs text-zinc-400">
-                        <span>{slot.persona.arcana} · Lv.</span>
+                        <span>{arcanaName(slot.persona.arcana)} · Lv.</span>
                         <select
                             value={slot.level ?? slot.persona.level}
                             onChange={handleLevelChange}

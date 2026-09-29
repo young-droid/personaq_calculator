@@ -4,6 +4,21 @@ import normalTableData from '@/data/normalFusionTable.json';
 import arcanasData from '@/data/arcanas.json';
 import triangleTableData from '@/data/triangleFusionTable.json';
 import specialFusionsData from '@/data/specialFusions.json';
+import ko from '@/locales/ko.json';
+import { arcanaName, personaName } from '@/lib/i18n';
+
+// 아직 한국어 이름으로 저장된 합체표/특수합체를 새 ID 구조에 연결한다.
+const arcanaIds = new Map(Object.entries(ko.arcana).map(([id, name]) => [name, id]));
+const personaIds = new Map(Object.entries(ko.persona).map(([id, entry]) => [entry.name, id]));
+function normalizeTable(table: Record<string, Record<string, string | null>>) {
+    return Object.fromEntries(Object.entries(table).map(([name, row]) => [
+        arcanaIds.get(name) ?? name,
+        Object.fromEntries(Object.entries(row).map(([other, result]) => [
+            arcanaIds.get(other) ?? other,
+            result === null ? null : (arcanaIds.get(result) ?? result),
+        ])),
+    ]));
+}
 
 export function buildPersonasByArcana(
     personas: Persona[],
@@ -63,17 +78,24 @@ function findLastAtOrBelow(
     return below[below.length - 1];
 }
 
-const normalTable = normalTableData.table as Record<
-    string,
-    Record<string, string | null>
->;
+const normalTable = normalizeTable(normalTableData.table);
 
 type SpecialFusionRecipe = {
-    result: { name: string; arcana: string; level: number };
-    materials: string[];
+    result: { id: string; arcana: string; level: number };
+    materials: string[][];
     spreadType: 'normal' | 'triangle';
 };
-const specialFusions = specialFusionsData as SpecialFusionRecipe[];
+const specialFusions: SpecialFusionRecipe[] = specialFusionsData.map((recipe) => ({
+    result: {
+        id: personaIds.get(recipe.result.name) ?? recipe.result.name,
+        arcana: arcanaIds.get(recipe.result.arcana) ?? recipe.result.arcana,
+        level: recipe.result.level,
+    },
+    materials: recipe.materials.map((slot) =>
+        parseAlternatives(slot).map((name) => personaIds.get(name) ?? name),
+    ),
+    spreadType: recipe.spreadType as SpecialFusionRecipe['spreadType'],
+}));
 
 function parseAlternatives(materialStr: string): string[] {
     return materialStr.split('또는').map((s) => s.trim());
@@ -81,10 +103,10 @@ function parseAlternatives(materialStr: string): string[] {
 
 function matchesRecipe(
     materialIds: string[],
-    recipeMaterials: string[],
+    recipeMaterials: string[][],
 ): boolean {
     if (materialIds.length !== recipeMaterials.length) return false;
-    const slots = recipeMaterials.map(parseAlternatives);
+    const slots = recipeMaterials;
     const remaining = [...materialIds];
 
     for (const slot of slots) {
@@ -102,7 +124,7 @@ function findSpecialFusionMatch(
     const ids = materialPersonas.map((p) => p.id);
     for (const recipe of specialFusions) {
         if (matchesRecipe(ids, recipe.materials)) {
-            const resultPersona = byId.get(recipe.result.name) ?? null;
+            const resultPersona = byId.get(recipe.result.id) ?? null;
             return { recipe, resultPersona };
         }
     }
@@ -111,7 +133,7 @@ function findSpecialFusionMatch(
 
 function checkZeusExclusivity(materialPersonas: Persona[]): string | null {
     const ids = materialPersonas.map((p) => p.id);
-    if (ids.includes('제우스') && ids.includes('중장 제우스')) {
+    if (ids.includes('ps_189') && ids.includes('ps_187')) {
         return '제우스와 중장 제우스는 같은 합체에 재료로 함께 쓸 수 없습니다.';
     }
     return null;
@@ -130,7 +152,7 @@ export function computeNormalSpread(
         if (!special.resultPersona) {
             return {
                 ok: false,
-                reason: `특수합체 결과 페르소나(${special.recipe.result.name})를 데이터에서 찾을 수 없습니다.`,
+                reason: `특수합체 결과 페르소나(${personaName(special.recipe.result.id)})를 데이터에서 찾을 수 없습니다.`,
             };
         }
         return {
@@ -183,7 +205,7 @@ export function computeNormalSpread(
     if (!resultPersona) {
         return {
             ok: false,
-            reason: `결과 아르카나(${resultArcana})에 합체 가능한 페르소나가 없습니다.`,
+            reason: `결과 아르카나(${arcanaName(resultArcana)})에 합체 가능한 페르소나가 없습니다.`,
         };
     }
     return {
@@ -196,12 +218,9 @@ export function computeNormalSpread(
     };
 }
 
-const arcanaIndexByKr = new Map(arcanasData.map((a) => [a.name.kr, a.id]));
+const arcanaIndexById = new Map(arcanasData.map((a) => [a.id, a.number]));
 
-const triangleTable = triangleTableData.table as Record<
-    string,
-    Record<string, string | null>
->;
+const triangleTable = normalizeTable(triangleTableData.table);
 
 export type FusionMaterial = { persona: Persona; currentLevel: number };
 
@@ -216,8 +235,8 @@ function pickThirdMaterial(materials: FusionMaterial[]): {
         if (cur.currentLevel > best.currentLevel) {
             thirdIdx = i;
         } else if (cur.currentLevel === best.currentLevel) {
-            const curNum = arcanaIndexByKr.get(cur.persona.arcana) ?? 999;
-            const bestNum = arcanaIndexByKr.get(best.persona.arcana) ?? 999;
+            const curNum = arcanaIndexById.get(cur.persona.arcana) ?? 999;
+            const bestNum = arcanaIndexById.get(best.persona.arcana) ?? 999;
             if (curNum < bestNum) thirdIdx = i;
         }
     }
@@ -259,7 +278,7 @@ export function computeTriangleSpread(
         if (!special.resultPersona) {
             return {
                 ok: false,
-                reason: `특수합체 결과 페르소나(${special.recipe.result.name})를 데이터에서 찾을 수 없습니다.`,
+                reason: `특수합체 결과 페르소나(${personaName(special.recipe.result.id)})를 데이터에서 찾을 수 없습니다.`,
             };
         }
         return {
@@ -340,7 +359,7 @@ export function computeTriangleSpread(
     if (!resultPersona) {
         return {
             ok: false,
-            reason: `결과 아르카나(${resultArcana})에 합체 가능한 페르소나가 없습니다.`,
+            reason: `결과 아르카나(${arcanaName(resultArcana)})에 합체 가능한 페르소나가 없습니다.`,
         };
     }
     return {

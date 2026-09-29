@@ -1,3 +1,4 @@
+import { personaName, arcanaName } from '@/lib/i18n';
 import { useMemo, useState } from 'react';
 import type { Skill } from '@/types/skill';
 import type { MaterialSlot } from '@/types/material';
@@ -5,7 +6,7 @@ import type { FusionResult } from '@/types/fusionResult';
 import {
     buildInheritCandidates,
     computeInheritSlotCount,
-    isPlaceholderSkill,
+    getPersonaSkills,
     getInitialSkills,
     skillDisplayName,
     skillKey,
@@ -57,7 +58,7 @@ export default function ResultCard({
 
     const baseSkills =
         result?.ok === true
-            ? result.resultPersona.skills.filter((s) => !isPlaceholderSkill(s))
+            ? getPersonaSkills(result.resultPersona)
             : [];
 
     const initialSkills =
@@ -111,14 +112,14 @@ export default function ResultCard({
                         <div className="flex flex-col gap-1.5">
                             <div className="flex items-baseline gap-2">
                                 <span className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-                                    {result.resultPersona.name.kr}
+                                    {personaName(result.resultPersona.id)}
                                 </span>
                                 <span className="text-xs text-zinc-400">
                                     {SPREAD_LABELS[result.spreadType]}
                                 </span>
                             </div>
                             <div className="text-xs text-zinc-400 dark:text-zinc-400">
-                                {result.resultArcana} · Lv.
+                                {arcanaName(result.resultArcana)} · Lv.
                                 {result.resultPersona.level}
                             </div>{' '}
                             <div className="flex flex-col  text-zinc-400 dark:text-zinc-400">
@@ -141,7 +142,7 @@ export default function ResultCard({
                             <ul className="grid grid-cols-1 gap-1">
                                 {baseSkills.map((s) => {
                                     const isSkillCard =
-                                        s.name.kr ===
+                                        s.id ===
                                         result.resultPersona.skillCard;
                                     return (
                                         <li

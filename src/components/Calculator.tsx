@@ -1,5 +1,6 @@
 'use client';
 
+import { personaName } from '@/lib/i18n';
 import { useMemo, useState } from 'react';
 import type { Persona } from '@/types/persona';
 import type { Skill } from '@/types/skill';
@@ -45,7 +46,7 @@ export default function Calculator({ personas, skills }: Props) {
     const sortedPersonas = useMemo(
         () =>
             [...personas].sort((a, b) =>
-                a.name.kr.localeCompare(b.name.kr, 'ko'),
+                personaName(a.id).localeCompare(personaName(b.id), 'ko'),
             ),
         [personas],
     );
