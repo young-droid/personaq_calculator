@@ -3,9 +3,10 @@
 // 이게 있으면 이 파일은 "클라이언트 컴포넌트"가 돼서 브라우저에서 실행돼.
 // useState 같은 훅, onChange 같은 이벤트 핸들러는 클라이언트 컴포넌트에서만 쓸 수 있어.
 
-import { personaName, arcanaName } from '@/lib/i18n';
+import { personaName } from '@/lib/i18n';
 import { useState } from 'react';
 import type { Persona } from '@/types/persona';
+import PersonaInfoCard from './PersonaInfoCard';
 
 // props 타입: 이 컴포넌트가 부모(page.tsx)로부터 어떤 데이터를 받는지 명시.
 type Props = {
@@ -33,19 +34,11 @@ export default function PersonaSearch({ personas }: Props) {
 
             <p className="text-xs text-zinc-400">{filtered.length}개 결과</p>
 
-            <ul className="flex flex-col gap-2">
-                {/* .map()으로 배열을 리스트 UI로 변환. key는 React가 각 항목을 구분하기 위한 고유값. */}
+            {/* <ul className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"> */}
+            <ul className="flex w-full max-w-3xl flex-col self-center gap-2">
                 {filtered.map((p) => (
-                    <li
-                        key={p.id}
-                        className="flex items-center justify-between rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm dark:border-zinc-800 dark:bg-zinc-900"
-                    >
-                        <span className="font-medium text-zinc-900 dark:text-zinc-50">
-                            {personaName(p.id)}
-                        </span>
-                        <span className="text-xs text-zinc-400">
-                            {arcanaName(p.arcana)} · Lv.{p.level}
-                        </span>
+                    <li key={p.id}>
+                        <PersonaInfoCard persona={p} />
                     </li>
                 ))}
             </ul>
