@@ -1,7 +1,17 @@
 {
   "ui": {
-    "exclusiveTo": "{names} 전용"
+    "exclusiveTo": "{names} 전용",
+    "sort.name": "이름",
+    "sort.arcana": "아르카나",
+    "sort.level": "LV",
+    "sort.hpBonus": "HP 보너스",
+    "sort.spBonus": "SP 보너스",
+    "sort.asc": "오름차순",
+    "sort.desc": "내림차순"
   },
+
+
+
   "arcana": {
     "fool": "광대",
     "magician": "마법사",

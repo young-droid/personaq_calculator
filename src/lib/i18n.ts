@@ -15,7 +15,10 @@ type Locale = {
     ui: Record<string, string>;
     fusion: {
         errors: Record<FusionFailureReason['code'], string>;
-        spread: Record<Extract<FusionResult, { ok: true }>['spreadType'], string>;
+        spread: Record<
+            Extract<FusionResult, { ok: true }>['spreadType'],
+            string
+        >;
         result: Record<keyof typeof ko.fusion.result, string>;
     };
     arcana: Record<string, string>;
@@ -51,6 +54,11 @@ function lookup(
         if (value) return value;
     }
     return null;
+}
+
+// ---- 기타 UI 문구들 ----
+export function uiText(key: string, lang: Lang = DEFAULT_LANG): string {
+    return lookup(lang, (locale) => locale.ui[key]) ?? key;
 }
 
 // ---- 이름 ----
@@ -103,18 +111,26 @@ export function label(
 }
 
 // 문장 안의 {count}, {persona} 같은 자리에 표시할 값을 넣는다.
-function interpolate(template: string, values: Record<string, string | number>): string {
+function interpolate(
+    template: string,
+    values: Record<string, string | number>,
+): string {
     return template.replace(/\{(\w+)\}/g, (placeholder, key: string) =>
         values[key] === undefined ? placeholder : String(values[key]),
     );
 }
 
-export function fusionReason(reason: FusionFailureReason, lang: Lang = DEFAULT_LANG): string {
+export function fusionReason(
+    reason: FusionFailureReason,
+    lang: Lang = DEFAULT_LANG,
+): string {
     const values: Record<string, string> = {};
     switch (reason.code) {
         case 'forbiddenMaterials':
-            values.names = new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' })
-                .format(reason.personaIds.map((id) => personaName(id, lang)));
+            values.names = new Intl.ListFormat(lang, {
+                style: 'long',
+                type: 'conjunction',
+            }).format(reason.personaIds.map((id) => personaName(id, lang)));
             break;
         case 'missingSpecialResult':
             values.persona = personaName(reason.personaId, lang);
@@ -123,7 +139,10 @@ export function fusionReason(reason: FusionFailureReason, lang: Lang = DEFAULT_L
             values.arcana = arcanaName(reason.arcanaId, lang);
             break;
     }
-    return interpolate(lookup(lang, (l) => l.fusion.errors[reason.code]) ?? reason.code, values);
+    return interpolate(
+        lookup(lang, (l) => l.fusion.errors[reason.code]) ?? reason.code,
+        values,
+    );
 }
 
 export function fusionSpreadName(
@@ -138,5 +157,8 @@ export function fusionResultText(
     lang: Lang = DEFAULT_LANG,
     values: Record<string, string | number> = {},
 ): string {
-    return interpolate(lookup(lang, (l) => l.fusion.result[key]) ?? key, values);
+    return interpolate(
+        lookup(lang, (l) => l.fusion.result[key]) ?? key,
+        values,
+    );
 }
